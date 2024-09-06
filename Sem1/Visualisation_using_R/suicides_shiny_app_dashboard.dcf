@@ -1,0 +1,12 @@
+name: suicides_shiny_app_dashboard
+title:
+username: gaurangabaishya
+account: gaurangabaishya
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10557786
+bundleId: 8005989
+url: https://gaurangabaishya.shinyapps.io/suicides_shiny_app_dashboard/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
