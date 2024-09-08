@@ -1,0 +1,323 @@
+---
+title: "PBSR Assignment 1"
+author: "Gauranga Kumar Baishya"
+date: '2023-10-12'
+output: pdf_document
+---
+# All the questions of the assignment are done here, and in no separate notebook.
+# <b>Q1 (i)
+X is a continuous random variable whose p.d.f is given by 
+\begin{align*}
+f(x) &= ax^{a-1} \quad \text{for} \quad 0 \leq x \leq c \\
+\end{align*}
+The distribution function of X is given by 
+\begin{align*}
+F(x) &= P(X \leq x) = \int_0^x f(t) dt = (\frac{x}{c})^{a} \quad \text{for} \quad 0 \leq x \leq c
+\end{align*}
+
+# <b>Q1 (ii)
+In order to find the inverted CDF, we equate the CDF to some probability, p and solve for x.
+\begin{align*}
+(\frac{x}{c})^{a} &= p \quad \text{for} \quad 0 \leq x \leq c \\
+x &= c.p ^{\frac{1}{a}}
+\end{align*}
+which is the required inverted CDF
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# <b>Q1 (iii)
+```{r}
+# Code for Question 1 part 3
+func1<-function(a,c) {
+  set.seed(1)
+  u<-runif(1)
+  icdf<-c*u^(1/a)
+  return(icdf)
+}
+```
+
+```{r}
+# Code for Question 1 part 3
+func1<-function(a,c) {
+  set.seed(1)
+  u<-runif(1)
+  icdf<-c*u^(1/a)
+  return(icdf)
+}
+```
+
+```{r}
+# Code for Question 1 part 3
+func1<-function(a,c) {
+  set.seed(1)
+  u<-runif(1)
+  icdf<-c*u^(1/a)
+  return(icdf)
+}
+```
+# <b>Q1 (iv)
+```{r}
+# Code for Question 1 part 4
+a <- 5
+c <- 10
+
+
+inv_cdf <- function(p) {
+  c * p^(1/a)
+}
+
+curve(inv_cdf, from = 0, to = 1, n = 1000, xlab = "Probability (p)", ylab = "Inverse CDF", main = "Inverse CDF Plot")
+
+p_val <- seq(0, 1, by = 0.01)
+x_val <- inv_cdf(p_val)
+min_x <- x_val[which.min(p_val)]
+
+cat("Range of x values with the least probability:", min_x, "\n")
+
+```
+# <b>Q1 (v)
+```{r}
+# Code for Question 1 part 5
+inv_cdf<-function(a,c) {
+  sample_size=1000
+  set.seed(1)
+  u<-runif(sample_size)
+  icdf<-c*u^(1/a)
+  return(icdf)
+}
+a=5
+c=10
+inv_cdf(a,c)
+```
+# <b>Q1 (vi)
+```{r}
+# Code for Question 1 part 6
+a=5
+c=10
+sample_size=1000
+sample_data=c*runif(sample_size)^(1/a)
+sample_mean= mean(sample_data)
+
+#Theoretical Mean- calculated by hand: ac/(a+1)
+
+tmean=a*c/(a+1)
+
+cat("Sample Mean:", sample_mean, "\n")
+cat("Theoretical Mean:", tmean, "\n")
+
+approx_lim=0.1
+if(abs(sample_mean-tmean)<approx_lim){
+  cat("The sample mean is approximately equal to the theoretical mean within the specified approximation.\n")
+} else{
+  cat("The sample mean is not approximately equal to the theoretical mean within the specified approximation.\n")
+}
+
+```
+# The CONCLUSION we can draw is that the mean value of the original distribution and of the samples drawn by the Inverse transform method is almost the same. Basically what we did here is that, we verified the method to be very efficient to draw random samples following some random distribution.
+
+# <b>Q2 (i)
+```{r}
+# Code for Question 2 part 1
+mean <- 160
+variance <- 160^2
+sample_size <- 10000
+lambda=mean
+
+set.seed(123)
+
+uniform_heights <- runif(sample_size, min = mean - sqrt(variance), max = mean + sqrt(variance))
+poisson_heights <- rpois(sample_size, lambda)
+normal_heights <- rnorm(sample_size, mean, sqrt(variance))
+
+uniform_heights
+poisson_heights
+normal_heights
+```
+# <b>Q2 (ii)
+```{r}
+# Code for Question 2 part 2
+sample_size=100
+unif_sample=sample(uniform_heights,size=sample_size)
+pois_sample=sample(poisson_heights,size=sample_size)
+norm_sample=sample(normal_heights,size=sample_size)
+
+sample_mean_unif=mean(unif_sample)
+sample_mean_pois=mean(pois_sample)
+sample_mean_norm=mean(norm_sample)
+
+cat("Sample Mean of Uniform Data:", sample_mean_unif, "\n")
+cat("Sample Mean of Poisson Data:", sample_mean_pois, "\n")
+cat("Sample Mean of Normal Data:", sample_mean_norm, "\n")
+```
+# <b>Q2 (iii)
+```{r}
+# Code for Question 2 part 3
+sample_size <- 100
+simulations <- 1000
+
+sample_means_uniform <- numeric(simulations)
+
+for (i in 1:simulations) {
+  uniform_sample <- sample(uniform_heights, size = sample_size)
+  sample_means_uniform[i] <- mean(uniform_sample)
+}
+
+sample_means_poisson <- numeric(simulations)
+
+for (i in 1:simulations) {
+  poisson_sample <- sample(poisson_heights, size = sample_size)
+  sample_means_poisson[i] <- mean(poisson_sample)
+}
+
+sample_means_normal <- numeric(simulations)
+
+for (i in 1:simulations) {
+  normal_sample <- sample(normal_heights, size = sample_size)
+  sample_means_normal[i] <- mean(normal_sample)
+}
+
+sample_means_uniform
+sample_means_poisson
+sample_means_normal
+
+```
+# <b>Q2 (iv)
+```{r}
+# Code for Question 2 part 4
+population_mean_uniform <- mean(uniform_heights)
+population_mean_poisson <- mean(poisson_heights)
+population_mean_normal <- mean(normal_heights)
+
+# Standard Error for mean is given by sigma/root(n)
+
+se_uniform <- sqrt(var(uniform_heights) / sample_size)
+se_poisson <- sqrt(var(poisson_heights) / sample_size)
+se_normal <- sqrt(var(normal_heights) / sample_size)
+
+cat("Population Mean of Uniform Data:", population_mean_uniform, "\n")
+cat("Population Mean of Poisson Data:", population_mean_poisson, "\n")
+cat("Population Mean of Normal Data:", population_mean_normal, "\n")
+cat("\n")
+cat("Standard Error of Uniform Data:", se_uniform, "\n")
+cat("Standard Error of Poisson Data:", se_poisson, "\n")
+cat("Standard Error of Normal Data:", se_normal, "\n")
+```
+# <b>Q2 (v)
+```{r}
+# Code for Question 2 part 5 (1)
+hist(sample_means_uniform, main = "Histogram of Sample Means (Uniform Distribution)", xlab = "Sample Mean Height", col = "grey", freq = FALSE)
+
+curve(dnorm(x, mean = population_mean_uniform, sd = se_uniform), add = TRUE, col = "blue", lwd = 2)
+
+```
+
+```{r}
+# Code for Question 2 part 5 (2)
+hist(sample_means_poisson, main = "Histogram of Sample Means (Poisson Distribution)", xlab = "Sample Mean Height", col = "grey", freq = FALSE)
+
+curve(dnorm(x, mean = population_mean_poisson, sd = se_poisson), add = TRUE, col = "black", lwd = 2)
+
+```
+
+```{r}
+# Code for Question 2 part 5 (3)
+hist(sample_means_normal, main = "Histogram of Sample Means (Normal Distribution)", xlab = "Sample Mean Height", col = "grey", freq = FALSE)
+
+curve(dnorm(x, mean = population_mean_normal, sd = se_normal), add = TRUE, col = "red", lwd = 2)
+
+```
+# <b>Q2 (vi)
+```{r}
+# Remark for Question 2 part 6
+
+#The Central Limit Theorem (CLT) plays a significant role in the convergence of sample means to a normal distribution as the sample size increases, even when the original population distribution is not normal.
+```
+# All the sub-parts of the questions are done here. What we did here is that, since the population size if 10,000 (which is a large number) it is very difficult and time consuming to study the height of 10,000 individuals. So we will study only 100 by randomely sampling from the population. If we pick one random sample of size 100 from 10,000 then the sample might not depict the properties of the population very well, i.e the mean and standard deviation might differ a lot. To ensure that, we will do this experiment of picking samples huge number of times, so that we will have 2000 small samples of size = 100. This is theprime idea of Cetral Limit Theorem. The more number of samples we pick, collectively it will depict the population much better. Then as we can see the sample means of each distribution is almost same as the population means of each distribution respectively, validating this result.
+
+# <b>Q3 (i)
+```{r}
+# Code for Question 3 part 1
+library(ggplot2)
+df=read.csv('baby.csv')
+gg <- ggplot(df, aes(x = Birth.Weight, fill = Maternal.Smoker))
+
+gg +
+  geom_histogram(binwidth = 5, position = "identity", alpha = 0.5,col="black") +
+  labs(
+    title = "Overlaying Histograms of Birth Weight by Maternal Smoker Status",
+    x = "Birth Weight",
+    y = "Frequency",
+    fill = "Maternal Smoker"
+  ) +
+  scale_fill_manual(values = c("False" = "red", "True" = "blue")) +
+  theme_minimal()
+result <- tapply(df$Birth.Weight, df$Maternal.Smoker, mean)
+cat('Mean for Maternal Smoker(NO) :',result[1],'\n')
+cat('Mean for Maternal Smoker(YES) :',result[2],'\n')
+
+cat("It can be observed that the average weight of the child whose mother do not smoke is higher as compared to whose mother smoke, it can be assumed that smoking directly affects the health of child although there are many other factors responsible for child's health which are not covered in this dataset.")
+```
+# <b>Q3 (ii)
+```{r}
+# Code for Question 3 part 2
+result1 <- tapply(df$Birth.Weight, df$Maternal.Smoker, mean)
+cat('Mean for Maternal Smoker(NO) :',result[1],'\n')
+cat('Mean for Maternal Smoker(YES) :',result[2],'\n')
+cat('The difference between the average weight of the smoking group and the average weight
+of the non-smoking group :',result1[1]-result1[2])
+```
+# <b>Q3 (iii)
+```{r}
+# Code for Question 3 part 3
+df1=read.csv('baby.csv')
+sim=1000
+v=numeric(sim)
+for (i in 1:1000){
+  df1$Maternal.Smoker<-sample(df$Maternal.Smoker)
+  result <-tapply(df1$Birth.Weight,df1$Maternal.Smoker, mean)
+  v[i]=(result[1]-result[2])
+}
+df3=data.frame(v)
+ggplot(df3,aes(x=v))+
+  geom_histogram(bins = 30, fill = "red", color = "black",alpha = 0.6)+
+  labs(
+    title = "Differences in Average weights after shuffling the Maternal.Smoker Column",
+    x = "Difference in average weights",
+    y = "Frequency"
+  )
+
+cat('Mean of the differences:',mean(v),'\n')
+cat('Variance of the differences:',var(v),'\n')
+
+  
+```
+
+
+```{r}
+# Code for Question 3 part 4
+ggplot(df3,aes(x=v))+
+  geom_histogram(bins = 30, fill = "red", color = "black",alpha = 0.6)+
+  geom_vline(xintercept=result1[1]-result1[2],col="hotpink", size = 1.2)+
+  coord_cartesian(xlim=c(-5,10))+
+  labs(
+    title = "Actual observed difference and difference after shuffling",
+    x = "Difference in average weights",
+    y = "Frequency"
+  )
+```
+
+```{r}
+# Code for Question 3 part 5
+obs_diff=result1[1]-result1[2]
+me=mean(v)
+va=var(v)
+sd=sqrt(va)
+cat('The actual observed difference(Before Shuffling):',obs_diff=result1[1]-result1[2],'\n')
+cat('Mean of the differences(After Shuffling):',mean(v),'\n')
+cat('Standard Deviation of the differences:',sd,'\n')
+cat('No of Standard Deviations  the observed difference is from the mean of the
+simulated variables :',ceiling((obs_diff-me)/sd))
+```
+# So, here we have a dataset containing the information of the weight of a newborn baby, weight of the mother and whether the mother smokes or not. We will try to make a conclusion, that whether smoking effects the weight of a newborn baby or not, We will do this by using a technique called “Random Permutations” and finding the count of standard deviation to conclude our result. In the first histogram we can see that the average weight of the baby is more in case of non-smoking mothers than the average weight of the smoking mothers. Then we will see the difference of this weight, and name it “obversed difference”. Then we will shuffle the Maternal.Smoker columns and find the difference of the weights of smoking and non-smoking case. And we will do this a huge number of times (10000 in this case). Then we will plot a histogram of these differences and we can clearly see the mean lies near “0”. But our “observes difference” was approximately 9. Hence there is a huge gap between those numbers. And if we find the count of standard deviations the observed difference is from the mean of the simulated variables we will get 9. Since 9 is big enough we will conclude Smoking does effect the weight of a baby a lot.
+
+
