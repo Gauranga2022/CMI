@@ -1,0 +1,1001 @@
+InvoiceID,Branch,CustomerType,Gender,ProductType,UnitPrice,Quantity,Tax,Total,PaymentType,Rating
+750-67-8428,A,Member,Female,Health and beauty,74.69,7,26.1415,548.9715,UPI,9.1
+226-31-3081,C,Normal,Female,Electronic accessories,15.28,5,3.82,80.22,Cash,9.6
+631-41-3108,A,Normal,Male,Home and lifestyle,46.33,7,16.2155,340.5255,Credit card,7.4
+123-19-1176,A,Member,Male,Health and beauty,58.22,8,23.288,489.048,UPI,8.4
+373-73-7910,A,Normal,Male,Sports and travel,86.31,7,30.2085,634.3785,UPI,5.3
+699-14-3026,C,Normal,Male,Electronic accessories,85.39,7,29.8865,627.6165,UPI,4.1
+355-53-5943,A,Member,Female,Electronic accessories,68.84,6,20.652,433.692,UPI,5.8
+315-22-5665,C,Normal,Female,Home and lifestyle,73.56,10,36.78,772.38,UPI,8
+665-32-9167,A,Member,Female,Health and beauty,36.26,2,3.626,76.146,Credit card,7.2
+692-92-5582,B,Member,Female,Food and beverages,54.84,3,8.226,172.746,Credit card,5.9
+351-62-0822,B,Member,Female,Fashion accessories,14.48,4,2.896,60.816,UPI,4.5
+529-56-3974,B,Member,Male,Electronic accessories,25.51,4,5.102,107.142,Cash,6.8
+365-64-0515,A,Normal,Female,Electronic accessories,46.95,5,11.7375,246.4875,UPI,7.1
+252-56-2699,A,Normal,Male,Food and beverages,43.19,10,21.595,453.495,UPI,8.2
+829-34-3910,A,Normal,Female,Health and beauty,71.38,10,35.69,749.49,Cash,5.7
+299-46-1805,B,Member,Female,Sports and travel,93.72,6,28.116,590.436,Cash,4.5
+656-95-9349,A,Member,Female,Health and beauty,68.93,7,24.1255,506.6355,Credit card,4.6
+765-26-6951,A,Normal,Male,Sports and travel,72.61,6,21.783,457.443,Credit card,6.9
+329-62-1586,A,Normal,Male,Food and beverages,54.67,3,8.2005,172.2105,Credit card,8.6
+319-50-3348,B,Normal,Female,Home and lifestyle,40.3,2,4.03,84.63,UPI,4.4
+300-71-4605,C,Member,Male,Electronic accessories,86.04,5,21.51,451.71,UPI,4.8
+371-85-5789,B,Normal,Male,Health and beauty,87.98,3,13.197,277.137,UPI,5.1
+273-16-6619,B,Normal,Male,Home and lifestyle,33.2,2,3.32,69.72,Credit card,4.4
+636-48-8204,A,Normal,Male,Electronic accessories,34.56,5,8.64,181.44,UPI,9.9
+549-59-1358,A,Member,Male,Sports and travel,88.63,3,13.2945,279.1845,UPI,6
+227-03-5010,A,Member,Female,Home and lifestyle,52.59,8,21.036,441.756,Credit card,8.5
+649-29-6775,B,Normal,Male,Fashion accessories,33.52,1,1.676,35.196,Cash,6.7
+189-17-4241,A,Normal,Female,Fashion accessories,87.67,2,8.767,184.107,Credit card,7.7
+145-94-9061,B,Normal,Female,Food and beverages,88.36,5,22.09,463.89,Cash,9.6
+848-62-7243,A,Normal,Male,Health and beauty,24.89,9,11.2005,235.2105,Cash,7.4
+871-79-8483,B,Normal,Male,Fashion accessories,94.13,5,23.5325,494.1825,Credit card,4.8
+149-71-6266,B,Member,Male,Sports and travel,78.07,9,35.1315,737.7615,Cash,4.5
+640-49-2076,B,Normal,Male,Sports and travel,83.78,8,33.512,703.752,Cash,5.1
+595-11-5460,A,Normal,Male,Health and beauty,96.58,2,9.658,202.818,Credit card,5.1
+183-56-6882,C,Member,Female,Food and beverages,99.42,4,19.884,417.564,UPI,7.5
+232-16-2483,C,Member,Female,Sports and travel,68.12,1,3.406,71.526,UPI,6.8
+129-29-8530,A,Member,Male,Sports and travel,62.62,5,15.655,328.755,UPI,7
+272-65-1806,A,Normal,Female,Electronic accessories,60.88,9,27.396,575.316,UPI,4.7
+333-73-7901,C,Normal,Female,Health and beauty,54.92,8,21.968,461.328,UPI,7.6
+777-82-7220,B,Member,Male,Home and lifestyle,30.12,8,12.048,253.008,Cash,7.7
+280-35-5823,B,Member,Female,Home and lifestyle,86.72,1,4.336,91.056,UPI,7.9
+554-53-8700,C,Member,Male,Home and lifestyle,56.11,2,5.611,117.831,Cash,6.3
+354-25-5821,B,Member,Female,Sports and travel,69.12,6,20.736,435.456,Cash,5.6
+228-96-1411,C,Member,Female,Food and beverages,98.7,8,39.48,829.08,Cash,7.6
+617-15-4209,C,Member,Male,Health and beauty,15.37,2,1.537,32.277,Cash,7.2
+132-32-9879,B,Member,Female,Electronic accessories,93.96,4,18.792,394.632,Cash,9.5
+370-41-7321,B,Member,Male,Health and beauty,56.69,9,25.5105,535.7205,Credit card,8.4
+727-46-3608,B,Member,Female,Food and beverages,20.01,9,9.0045,189.0945,UPI,4.1
+669-54-1719,B,Member,Male,Electronic accessories,18.93,6,5.679,119.259,Credit card,8.1
+574-22-5561,C,Member,Female,Fashion accessories,82.63,10,41.315,867.615,UPI,7.9
+326-78-5178,C,Member,Male,Food and beverages,91.4,7,31.99,671.79,Cash,9.5
+162-48-8011,A,Member,Female,Food and beverages,44.59,5,11.1475,234.0975,Cash,8.5
+616-24-2851,B,Member,Female,Fashion accessories,17.87,4,3.574,75.054,UPI,6.5
+778-71-5554,C,Member,Male,Fashion accessories,15.43,1,0.7715,16.2015,Credit card,6.1
+242-55-6721,B,Normal,Male,Home and lifestyle,16.16,2,1.616,33.936,UPI,6.5
+399-46-5918,C,Normal,Female,Electronic accessories,85.98,8,34.392,722.232,Cash,8.2
+106-35-6779,A,Member,Male,Home and lifestyle,44.34,2,4.434,93.114,Cash,5.8
+635-40-6220,A,Normal,Male,Health and beauty,89.6,8,35.84,752.64,UPI,6.6
+817-48-8732,A,Member,Female,Home and lifestyle,72.35,10,36.175,759.675,Cash,5.4
+120-06-4233,C,Normal,Male,Electronic accessories,30.61,6,9.183,192.843,Cash,9.3
+285-68-5083,C,Member,Female,Sports and travel,24.74,3,3.711,77.931,Credit card,10
+803-83-5989,C,Normal,Male,Home and lifestyle,55.73,6,16.719,351.099,UPI,7
+347-34-2234,B,Member,Female,Sports and travel,55.07,9,24.7815,520.4115,UPI,10
+199-75-8169,A,Member,Male,Sports and travel,15.81,10,7.905,166.005,Credit card,8.6
+853-23-2453,B,Member,Male,Health and beauty,75.74,4,15.148,318.108,Cash,7.6
+877-22-3308,A,Member,Male,Health and beauty,15.87,10,7.935,166.635,Cash,5.8
+838-78-4295,C,Normal,Female,Health and beauty,33.47,2,3.347,70.287,UPI,6.7
+109-28-2512,B,Member,Female,Fashion accessories,97.61,6,29.283,614.943,UPI,9.9
+232-11-3025,A,Normal,Male,Sports and travel,78.77,10,39.385,827.085,Cash,6.4
+382-03-4532,A,Member,Female,Health and beauty,18.33,1,0.9165,19.2465,Cash,4.3
+393-65-2792,C,Normal,Male,Food and beverages,89.48,10,44.74,939.54,Credit card,9.6
+796-12-2025,C,Normal,Male,Fashion accessories,62.12,10,31.06,652.26,Cash,5.9
+510-95-6347,B,Member,Female,Food and beverages,48.52,3,7.278,152.838,UPI,4
+841-35-6630,C,Normal,Female,Electronic accessories,75.91,6,22.773,478.233,Cash,8.7
+287-21-9091,A,Normal,Male,Home and lifestyle,74.67,9,33.6015,705.6315,UPI,9.4
+732-94-0499,C,Normal,Female,Electronic accessories,41.65,10,20.825,437.325,Credit card,5.4
+263-10-3913,C,Member,Male,Fashion accessories,49.04,9,22.068,463.428,Credit card,8.6
+381-20-0914,A,Member,Female,Fashion accessories,20.01,9,9.0045,189.0945,Credit card,5.7
+829-49-1914,C,Member,Female,Food and beverages,78.31,10,39.155,822.255,UPI,6.6
+756-01-7507,C,Normal,Female,Health and beauty,20.38,5,5.095,106.995,Cash,6
+870-72-4431,C,Normal,Female,Health and beauty,99.19,6,29.757,624.897,Credit card,5.5
+847-38-7188,B,Normal,Female,Food and beverages,96.68,3,14.502,304.542,UPI,6.4
+480-63-2856,C,Normal,Male,Food and beverages,19.25,8,7.7,161.7,UPI,6.6
+787-56-0757,C,Member,Female,Food and beverages,80.36,4,16.072,337.512,Credit card,8.3
+360-39-5055,C,Member,Male,Sports and travel,48.91,5,12.2275,256.7775,Cash,6.6
+730-50-9884,C,Normal,Female,Sports and travel,83.06,7,29.071,610.491,UPI,4
+362-58-8315,C,Normal,Male,Fashion accessories,76.52,5,19.13,401.73,Cash,9.9
+633-44-8566,A,Member,Male,Food and beverages,49.38,7,17.283,362.943,Credit card,7.3
+504-35-8843,A,Normal,Male,Sports and travel,42.47,1,2.1235,44.5935,Cash,5.7
+318-68-5053,B,Normal,Female,Health and beauty,76.99,6,23.097,485.037,Cash,6.1
+565-80-5980,C,Member,Female,Home and lifestyle,47.38,4,9.476,198.996,Cash,7.1
+225-32-0908,C,Normal,Female,Sports and travel,44.86,10,22.43,471.03,UPI,8.2
+873-51-0671,A,Member,Female,Sports and travel,21.98,7,7.693,161.553,UPI,5.1
+152-08-9985,B,Member,Male,Health and beauty,64.36,9,28.962,608.202,Credit card,8.6
+512-91-0811,C,Normal,Male,Health and beauty,89.75,1,4.4875,94.2375,Credit card,6.6
+594-34-4444,A,Normal,Male,Electronic accessories,97.16,1,4.858,102.018,UPI,7.2
+766-85-7061,B,Normal,Male,Health and beauty,87.87,10,43.935,922.635,UPI,5.1
+871-39-9221,C,Normal,Female,Electronic accessories,12.45,6,3.735,78.435,Cash,4.1
+865-92-6136,A,Normal,Male,Food and beverages,52.75,3,7.9125,166.1625,UPI,9.3
+733-01-9107,B,Normal,Male,Home and lifestyle,82.7,6,24.81,521.01,Cash,7.4
+163-56-7055,C,Member,Male,Fashion accessories,48.71,1,2.4355,51.1455,Cash,4.1
+189-98-2939,C,Normal,Male,Fashion accessories,78.55,9,35.3475,742.2975,Cash,7.2
+551-21-3069,C,Normal,Female,Electronic accessories,23.07,9,10.3815,218.0115,Cash,4.9
+212-62-1842,A,Normal,Male,Food and beverages,58.26,6,17.478,367.038,Cash,9.9
+716-39-1409,B,Normal,Male,Health and beauty,30.35,7,10.6225,223.0725,Cash,8
+704-48-3927,A,Member,Male,Electronic accessories,88.67,10,44.335,931.035,UPI,7.3
+628-34-3388,C,Normal,Male,Fashion accessories,27.38,6,8.214,172.494,Credit card,7.9
+630-74-5166,A,Normal,Male,Sports and travel,62.13,6,18.639,391.419,Cash,7.4
+588-01-7461,C,Normal,Female,Food and beverages,33.98,9,15.291,321.111,Cash,4.2
+861-77-0145,C,Member,Male,Electronic accessories,81.97,10,40.985,860.685,Cash,9.2
+479-26-8945,B,Member,Female,Sports and travel,16.49,2,1.649,34.629,UPI,4.6
+210-67-5886,C,Member,Female,Health and beauty,98.21,3,14.7315,309.3615,Credit card,7.8
+227-78-1148,B,Normal,Female,Fashion accessories,72.84,7,25.494,535.374,Cash,8.4
+645-44-1170,A,Member,Male,Home and lifestyle,58.07,9,26.1315,548.7615,UPI,4.3
+237-01-6122,C,Member,Female,Home and lifestyle,80.79,9,36.3555,763.4655,Credit card,9.5
+225-98-1496,C,Normal,Female,Fashion accessories,27.02,3,4.053,85.113,Credit card,7.1
+291-32-1427,B,Member,Male,Fashion accessories,21.94,5,5.485,115.185,UPI,5.3
+659-65-8956,B,Member,Male,Fashion accessories,51.36,1,2.568,53.928,UPI,5.2
+642-32-2990,A,Normal,Female,Food and beverages,10.96,10,5.48,115.08,UPI,6
+378-24-2715,B,Normal,Male,Home and lifestyle,53.44,2,5.344,112.224,UPI,4.1
+638-60-7125,A,Normal,Female,Electronic accessories,99.56,8,39.824,836.304,Credit card,5.2
+659-36-1684,C,Member,Male,Sports and travel,57.12,7,19.992,419.832,Credit card,6.5
+219-22-9386,B,Member,Male,Sports and travel,99.96,9,44.982,944.622,Credit card,4.2
+336-78-2147,C,Member,Male,Home and lifestyle,63.91,8,25.564,536.844,Credit card,4.6
+268-27-6179,B,Member,Female,Fashion accessories,56.47,8,22.588,474.348,UPI,7.3
+668-90-8900,A,Normal,Female,Home and lifestyle,93.69,7,32.7915,688.6215,Credit card,4.5
+870-54-3162,A,Normal,Female,Sports and travel,32.25,5,8.0625,169.3125,Cash,9
+189-08-9157,C,Normal,Female,Fashion accessories,31.73,9,14.2785,299.8485,Credit card,5.9
+663-86-9076,C,Member,Female,Food and beverages,68.54,8,27.416,575.736,UPI,8.5
+549-84-7482,B,Normal,Female,Sports and travel,90.28,9,40.626,853.146,UPI,7.2
+191-10-6171,B,Normal,Female,Fashion accessories,39.62,7,13.867,291.207,Cash,7.5
+802-70-5316,A,Member,Female,Sports and travel,92.13,6,27.639,580.419,Cash,8.3
+695-51-0018,B,Normal,Female,Sports and travel,34.84,4,6.968,146.328,Cash,7.4
+590-83-4591,B,Member,Male,Electronic accessories,87.45,6,26.235,550.935,Credit card,8.8
+483-71-1164,C,Normal,Female,Health and beauty,81.3,6,24.39,512.19,UPI,5.3
+597-78-7908,C,Normal,Male,Fashion accessories,90.22,3,13.533,284.193,Cash,6.2
+700-81-1757,A,Normal,Female,Electronic accessories,26.31,5,6.5775,138.1275,Credit card,8.8
+354-39-5160,A,Member,Female,Home and lifestyle,34.42,6,10.326,216.846,Cash,9.8
+241-72-9525,B,Normal,Male,Sports and travel,51.91,10,25.955,545.055,Cash,8.2
+575-30-8091,A,Normal,Male,Sports and travel,72.5,8,29,609,UPI,9.2
+731-81-9469,C,Member,Female,Sports and travel,89.8,10,44.9,942.9,Credit card,5.4
+280-17-4359,C,Member,Male,Health and beauty,90.5,10,45.25,950.25,Cash,8.1
+338-65-2210,C,Member,Female,Health and beauty,68.6,10,34.3,720.3,Cash,9.1
+488-25-4221,C,Member,Female,Food and beverages,30.41,1,1.5205,31.9305,Credit card,8.4
+239-10-7476,A,Normal,Female,Home and lifestyle,77.95,6,23.385,491.085,UPI,8
+458-41-1477,C,Normal,Female,Health and beauty,46.26,6,13.878,291.438,Credit card,9.5
+685-64-1609,A,Member,Female,Fashion accessories,30.14,10,15.07,316.47,UPI,9.2
+568-90-5112,C,Normal,Male,Health and beauty,66.14,4,13.228,277.788,Credit card,5.6
+262-47-2794,B,Member,Male,Home and lifestyle,71.86,8,28.744,603.624,Credit card,6.2
+238-49-0436,A,Normal,Male,Health and beauty,32.46,8,12.984,272.664,Credit card,4.9
+608-96-3517,B,Member,Female,Fashion accessories,91.54,4,18.308,384.468,Credit card,4.8
+584-86-7256,C,Member,Male,Sports and travel,34.56,7,12.096,254.016,Credit card,7.3
+746-94-0204,A,Normal,Male,Fashion accessories,83.24,9,37.458,786.618,Credit card,7.4
+214-17-6927,C,Normal,Female,Food and beverages,16.48,6,4.944,103.824,UPI,9.9
+400-89-4171,C,Normal,Female,Sports and travel,80.97,8,32.388,680.148,Cash,9.3
+782-95-9291,A,Member,Male,Food and beverages,92.29,5,23.0725,484.5225,Credit card,9
+279-74-2924,B,Member,Male,Electronic accessories,72.17,1,3.6085,75.7785,Cash,6.1
+307-85-2293,B,Normal,Male,Home and lifestyle,50.28,5,12.57,263.97,UPI,9.7
+743-04-1105,B,Member,Male,Health and beauty,97.22,9,43.749,918.729,UPI,6
+423-57-2993,B,Normal,Male,Sports and travel,93.39,6,28.017,588.357,UPI,10
+894-41-5205,C,Normal,Female,Food and beverages,43.18,8,17.272,362.712,Credit card,8.3
+275-28-0149,A,Normal,Male,Sports and travel,63.69,1,3.1845,66.8745,Cash,6
+101-17-6199,A,Normal,Male,Food and beverages,45.79,7,16.0265,336.5565,Credit card,7
+423-80-0988,C,Normal,Male,Sports and travel,76.4,2,7.64,160.44,UPI,6.5
+548-46-9322,B,Normal,Male,Food and beverages,39.9,10,19.95,418.95,Credit card,5.9
+505-02-0892,B,Member,Male,Health and beauty,42.57,8,17.028,357.588,UPI,5.6
+234-65-2137,C,Normal,Male,Home and lifestyle,95.58,10,47.79,1003.59,Cash,4.8
+687-47-8271,A,Normal,Male,Fashion accessories,98.98,10,49.49,1039.29,Credit card,8.7
+796-32-9050,A,Normal,Male,Food and beverages,51.28,6,15.384,323.064,Cash,6.5
+105-31-1824,A,Member,Male,Sports and travel,69.52,7,24.332,510.972,Credit card,8.5
+249-42-3782,A,Normal,Male,Health and beauty,70.01,5,17.5025,367.5525,UPI,5.5
+316-55-4634,B,Member,Male,Food and beverages,80.05,5,20.0125,420.2625,Credit card,9.4
+733-33-4967,C,Normal,Male,Electronic accessories,20.85,8,8.34,175.14,Cash,6.3
+608-27-6295,B,Member,Male,Electronic accessories,52.89,6,15.867,333.207,Credit card,9.8
+414-12-7047,B,Normal,Male,Food and beverages,19.79,8,7.916,166.236,UPI,8.7
+827-26-2100,A,Member,Male,Home and lifestyle,33.84,9,15.228,319.788,UPI,8.8
+175-54-2529,A,Member,Male,Food and beverages,22.17,8,8.868,186.228,Credit card,9.6
+139-52-2867,C,Normal,Female,Fashion accessories,22.51,7,7.8785,165.4485,Credit card,4.8
+407-63-8975,A,Normal,Male,Food and beverages,73.88,6,22.164,465.444,UPI,4.4
+342-65-4817,C,Member,Male,Health and beauty,86.8,3,13.02,273.42,UPI,9.9
+130-98-8941,C,Normal,Male,Fashion accessories,64.26,7,22.491,472.311,Cash,5.7
+434-83-9547,C,Member,Male,Food and beverages,38.47,8,15.388,323.148,Cash,7.7
+851-28-6367,A,Member,Male,Sports and travel,15.5,10,7.75,162.75,UPI,8
+824-88-3614,C,Normal,Male,Health and beauty,34.31,8,13.724,288.204,UPI,5.7
+586-25-0848,A,Normal,Female,Sports and travel,12.34,7,4.319,90.699,Credit card,6.7
+895-66-0685,B,Member,Male,Food and beverages,18.08,3,2.712,56.952,UPI,8
+305-14-0245,B,Member,Female,Home and lifestyle,94.49,8,37.796,793.716,UPI,7.5
+732-04-5373,B,Member,Male,Home and lifestyle,46.47,4,9.294,195.174,Cash,7
+400-60-7251,A,Normal,Male,Home and lifestyle,74.07,1,3.7035,77.7735,UPI,9.9
+593-65-1552,C,Normal,Female,Home and lifestyle,69.81,4,13.962,293.202,Credit card,5.9
+284-34-9626,B,Normal,Female,Home and lifestyle,77.04,3,11.556,242.676,Credit card,7.2
+437-58-8131,B,Normal,Female,Fashion accessories,73.52,2,7.352,154.392,UPI,4.6
+286-43-6208,C,Normal,Female,Food and beverages,87.8,9,39.51,829.71,Cash,9.2
+641-43-2399,B,Normal,Male,Home and lifestyle,25.55,4,5.11,107.31,UPI,5.7
+831-07-6050,A,Normal,Male,Electronic accessories,32.71,5,8.1775,171.7275,Credit card,9.9
+556-86-3144,C,Member,Female,Fashion accessories,74.29,1,3.7145,78.0045,Cash,5
+848-24-9445,C,Member,Male,Health and beauty,43.7,2,4.37,91.77,Cash,4.9
+856-22-8149,A,Normal,Female,Home and lifestyle,25.29,1,1.2645,26.5545,UPI,6.1
+699-01-4164,C,Normal,Male,Health and beauty,41.5,4,8.3,174.3,Credit card,8.2
+420-11-4919,C,Member,Female,Food and beverages,71.39,5,17.8475,374.7975,Credit card,5.5
+606-80-4905,C,Member,Female,Sports and travel,19.15,6,5.745,120.645,Credit card,6.8
+542-41-0513,B,Member,Female,Electronic accessories,57.49,4,11.498,241.458,Cash,6.6
+426-39-2418,C,Normal,Male,Electronic accessories,61.41,7,21.4935,451.3635,Cash,9.8
+875-46-5808,B,Member,Male,Health and beauty,25.9,10,12.95,271.95,UPI,8.7
+394-43-4238,B,Member,Male,Home and lifestyle,17.77,5,4.4425,93.2925,Credit card,5.4
+749-24-1565,A,Normal,Female,Health and beauty,23.03,9,10.3635,217.6335,UPI,7.9
+672-51-8681,C,Member,Female,Electronic accessories,66.65,9,29.9925,629.8425,Credit card,9.7
+263-87-5680,C,Member,Female,Home and lifestyle,28.53,10,14.265,299.565,UPI,7.8
+573-58-9734,B,Normal,Female,Fashion accessories,30.37,3,4.5555,95.6655,UPI,5.1
+817-69-8206,B,Normal,Female,Electronic accessories,99.73,9,44.8785,942.4485,Credit card,6.5
+888-02-0338,A,Normal,Male,Electronic accessories,26.23,9,11.8035,247.8735,UPI,5.9
+677-11-0152,C,Normal,Female,Food and beverages,93.26,9,41.967,881.307,Cash,8.8
+142-63-6033,B,Normal,Male,Home and lifestyle,92.36,5,23.09,484.89,UPI,4.9
+656-16-1063,B,Normal,Male,Sports and travel,46.42,3,6.963,146.223,Credit card,4.4
+891-58-8335,B,Member,Female,Sports and travel,29.61,7,10.3635,217.6335,Cash,6.5
+802-43-8934,A,Normal,Male,Home and lifestyle,18.28,1,0.914,19.194,Credit card,8.3
+560-30-5617,B,Normal,Female,Sports and travel,24.77,5,6.1925,130.0425,Cash,8.5
+319-74-2561,A,Member,Female,Electronic accessories,94.64,3,14.196,298.116,Cash,5.5
+549-03-9315,B,Normal,Male,Fashion accessories,94.87,8,37.948,796.908,UPI,8.7
+790-29-1172,B,Normal,Female,Food and beverages,57.34,3,8.601,180.621,Credit card,7.9
+239-36-3640,B,Normal,Male,Electronic accessories,45.35,6,13.605,285.705,UPI,6.1
+468-01-2051,B,Normal,Male,Food and beverages,62.08,7,21.728,456.288,UPI,5.4
+389-25-3394,C,Normal,Male,Electronic accessories,11.81,5,2.9525,62.0025,Cash,9.4
+279-62-1445,C,Member,Female,Fashion accessories,12.54,1,0.627,13.167,Cash,8.2
+213-72-6612,A,Normal,Male,Food and beverages,43.25,2,4.325,90.825,Cash,6.2
+746-68-6593,C,Member,Female,Sports and travel,87.16,2,8.716,183.036,Credit card,9.7
+836-82-5858,B,Member,Male,Health and beauty,69.37,9,31.2165,655.5465,UPI,4
+583-72-1480,C,Member,Male,Electronic accessories,37.06,4,7.412,155.652,UPI,9.7
+466-61-5506,B,Member,Female,Electronic accessories,90.7,6,27.21,571.41,Cash,5.3
+721-86-6247,A,Normal,Female,Home and lifestyle,63.42,8,25.368,532.728,UPI,7.4
+289-65-5721,B,Normal,Female,Fashion accessories,81.37,2,8.137,170.877,Cash,6.5
+545-46-3100,B,Member,Female,Electronic accessories,10.59,3,1.5885,33.3585,Credit card,8.7
+418-02-5978,B,Normal,Female,Health and beauty,84.09,9,37.8405,794.6505,Cash,8
+269-04-5750,B,Member,Male,Fashion accessories,73.82,4,14.764,310.044,Cash,6.7
+157-13-5295,A,Member,Male,Health and beauty,51.94,10,25.97,545.37,UPI,6.5
+645-78-8093,A,Normal,Female,Sports and travel,93.14,2,9.314,195.594,UPI,4.1
+211-30-9270,C,Normal,Male,Health and beauty,17.41,5,4.3525,91.4025,Credit card,4.9
+755-12-3214,C,Member,Female,Fashion accessories,44.22,5,11.055,232.155,Credit card,8.6
+346-84-3103,B,Member,Female,Electronic accessories,13.22,5,3.305,69.405,Cash,4.3
+478-06-7835,A,Normal,Male,Fashion accessories,89.69,1,4.4845,94.1745,UPI,4.9
+540-11-4336,A,Normal,Male,Food and beverages,24.94,9,11.223,235.683,Credit card,5.6
+448-81-5016,A,Normal,Male,Health and beauty,59.77,2,5.977,125.517,Credit card,5.8
+142-72-4741,C,Member,Male,Fashion accessories,93.2,2,9.32,195.72,Credit card,6
+217-58-1179,A,Member,Male,Home and lifestyle,62.65,4,12.53,263.13,Cash,4.2
+376-02-8238,B,Normal,Male,Home and lifestyle,93.87,8,37.548,788.508,Credit card,8.3
+530-90-9855,A,Member,Male,Home and lifestyle,47.59,8,19.036,399.756,Cash,5.7
+866-05-7563,B,Member,Female,Electronic accessories,81.4,3,12.21,256.41,Cash,4.8
+604-70-6476,A,Member,Male,Fashion accessories,17.94,5,4.485,94.185,UPI,6.8
+799-71-1548,A,Member,Male,Electronic accessories,77.72,4,15.544,326.424,Credit card,8.8
+785-13-7708,B,Normal,Male,Food and beverages,73.06,7,25.571,536.991,Credit card,4.2
+845-51-0542,B,Member,Male,Food and beverages,46.55,9,20.9475,439.8975,UPI,6.4
+662-47-5456,C,Member,Male,Fashion accessories,35.19,10,17.595,369.495,Credit card,8.4
+883-17-4236,C,Normal,Female,Sports and travel,14.39,2,1.439,30.219,Credit card,7.2
+290-68-2984,A,Normal,Male,Home and lifestyle,23.75,4,4.75,99.75,Cash,5.2
+704-11-6354,A,Member,Male,Home and lifestyle,58.9,8,23.56,494.76,Cash,8.9
+110-48-7033,B,Member,Male,Fashion accessories,32.62,4,6.524,137.004,Cash,9
+366-93-0948,A,Member,Male,Electronic accessories,66.35,1,3.3175,69.6675,Credit card,9.7
+729-09-9681,A,Member,Male,Home and lifestyle,25.91,6,7.773,163.233,UPI,8.7
+151-16-1484,A,Member,Male,Electronic accessories,32.25,4,6.45,135.45,UPI,6.5
+380-94-4661,C,Member,Male,Electronic accessories,65.94,4,13.188,276.948,Credit card,6.9
+850-41-9669,A,Normal,Female,Electronic accessories,75.06,9,33.777,709.317,UPI,6.2
+821-07-3596,C,Normal,Female,Fashion accessories,16.45,4,3.29,69.09,UPI,5.6
+655-85-5130,B,Member,Female,Fashion accessories,38.3,4,7.66,160.86,Cash,5.7
+447-15-7839,A,Member,Female,Sports and travel,22.24,10,11.12,233.52,Cash,4.2
+154-74-7179,B,Normal,Male,Sports and travel,54.45,1,2.7225,57.1725,UPI,7.9
+253-12-6086,A,Member,Female,Sports and travel,98.4,7,34.44,723.24,Credit card,8.7
+808-65-0703,C,Normal,Male,Home and lifestyle,35.47,4,7.094,148.974,Credit card,6.9
+571-94-0759,B,Member,Female,Food and beverages,74.6,10,37.3,783.3,Cash,9.5
+144-51-6085,A,Member,Male,Home and lifestyle,70.74,4,14.148,297.108,Credit card,4.4
+731-14-2199,A,Member,Female,Home and lifestyle,35.54,10,17.77,373.17,UPI,7
+783-09-1637,B,Normal,Female,Sports and travel,67.43,5,16.8575,354.0075,UPI,6.3
+687-15-1097,C,Member,Female,Health and beauty,21.12,2,2.112,44.352,Cash,9.7
+126-54-1082,A,Member,Female,Home and lifestyle,21.54,9,9.693,203.553,Credit card,8.8
+633-91-1052,A,Normal,Female,Home and lifestyle,12.03,2,1.203,25.263,Cash,5.1
+477-24-6490,B,Normal,Female,Health and beauty,99.71,6,29.913,628.173,UPI,7.9
+566-19-5475,B,Normal,Male,Fashion accessories,47.97,7,16.7895,352.5795,Cash,6.2
+526-86-8552,C,Member,Female,Home and lifestyle,21.82,10,10.91,229.11,Cash,7.1
+376-56-3573,C,Normal,Female,Fashion accessories,95.42,4,19.084,400.764,UPI,6.4
+537-72-0426,C,Member,Male,Fashion accessories,70.99,10,35.495,745.395,Cash,5.7
+828-61-5674,A,Member,Male,Sports and travel,44.02,10,22.01,462.21,Credit card,9.6
+136-08-6195,A,Normal,Female,Home and lifestyle,69.96,8,27.984,587.664,Credit card,6.4
+523-38-0215,C,Normal,Male,Home and lifestyle,37,1,1.85,38.85,Credit card,7.9
+490-29-1201,A,Normal,Female,Sports and travel,15.34,1,0.767,16.107,Cash,6.5
+667-92-0055,A,Member,Male,Health and beauty,99.83,6,29.949,628.929,UPI,8.5
+565-17-3836,A,Member,Female,Health and beauty,47.67,4,9.534,200.214,Cash,9.1
+498-41-1961,B,Normal,Male,Health and beauty,66.68,5,16.67,350.07,Cash,7.6
+593-95-4461,C,Member,Male,Home and lifestyle,74.86,1,3.743,78.603,Cash,6.9
+226-71-3580,C,Normal,Female,Sports and travel,23.75,9,10.6875,224.4375,Cash,9.5
+283-79-9594,B,Normal,Female,Food and beverages,48.51,7,16.9785,356.5485,Credit card,5.2
+430-60-3493,A,Member,Female,Home and lifestyle,94.88,7,33.208,697.368,Cash,4.2
+139-20-0155,B,Member,Male,Electronic accessories,40.3,10,20.15,423.15,Credit card,7
+558-80-4082,C,Normal,Male,Electronic accessories,27.85,7,9.7475,204.6975,UPI,6
+278-97-7759,A,Member,Female,Electronic accessories,62.48,1,3.124,65.604,Cash,4.7
+316-68-6352,A,Member,Female,Food and beverages,36.36,2,3.636,76.356,Cash,7.1
+585-03-5943,B,Normal,Male,Health and beauty,18.11,10,9.055,190.155,UPI,5.9
+211-05-0490,C,Member,Female,Electronic accessories,51.92,5,12.98,272.58,Cash,7.5
+727-75-6477,C,Normal,Male,Electronic accessories,28.84,4,5.768,121.128,Cash,6.4
+744-02-5987,A,Member,Male,Home and lifestyle,78.38,6,23.514,493.794,UPI,5.8
+307-83-9164,A,Member,Male,Home and lifestyle,60.01,4,12.002,252.042,Cash,4.5
+779-06-0012,C,Member,Female,Home and lifestyle,88.61,1,4.4305,93.0405,Cash,7.7
+446-47-6729,C,Normal,Male,Fashion accessories,99.82,2,9.982,209.622,Credit card,6.7
+573-10-3877,B,Member,Male,Health and beauty,39.01,1,1.9505,40.9605,Credit card,4.7
+735-06-4124,C,Normal,Male,Food and beverages,48.61,1,2.4305,51.0405,Cash,4.4
+439-54-7422,A,Normal,Female,Electronic accessories,51.19,4,10.238,214.998,Credit card,4.7
+396-90-2219,B,Normal,Female,Electronic accessories,14.96,8,5.984,125.664,Cash,8.6
+411-77-0180,A,Member,Male,Electronic accessories,72.2,7,25.27,530.67,UPI,4.3
+286-01-5402,A,Normal,Female,Sports and travel,40.23,7,14.0805,295.6905,Cash,9.6
+803-17-8013,A,Member,Female,Home and lifestyle,88.79,8,35.516,745.836,Cash,4.1
+512-98-1403,A,Member,Female,Electronic accessories,26.48,3,3.972,83.412,UPI,4.7
+848-42-2560,A,Normal,Female,Fashion accessories,81.91,2,8.191,172.011,Cash,7.8
+532-59-7201,B,Member,Male,Sports and travel,79.93,6,23.979,503.559,Cash,5.5
+181-94-6432,C,Member,Male,Fashion accessories,69.33,2,6.933,145.593,UPI,9.7
+870-76-1733,A,Member,Female,Food and beverages,14.23,5,3.5575,74.7075,Credit card,4.4
+423-64-4619,A,Member,Female,Health and beauty,15.55,9,6.9975,146.9475,Cash,5
+227-07-4446,C,Member,Female,Electronic accessories,78.13,10,39.065,820.365,Cash,4.4
+174-36-3675,C,Member,Male,Food and beverages,99.37,2,9.937,208.677,Cash,5.2
+428-83-5800,C,Member,Female,Food and beverages,21.08,3,3.162,66.402,Cash,7.3
+603-07-0961,C,Member,Male,Electronic accessories,74.79,5,18.6975,392.6475,Cash,4.9
+704-20-4138,C,Member,Female,Health and beauty,29.67,7,10.3845,218.0745,Credit card,8.1
+787-15-1757,C,Member,Male,Health and beauty,44.07,4,8.814,185.094,UPI,8.4
+649-11-3678,C,Normal,Female,Food and beverages,22.93,9,10.3185,216.6885,Cash,5.5
+622-20-1945,C,Normal,Female,Health and beauty,39.42,1,1.971,41.391,Cash,8.4
+372-94-8041,A,Normal,Male,Health and beauty,15.26,6,4.578,96.138,UPI,9.8
+563-91-7120,A,Normal,Female,Fashion accessories,61.77,5,15.4425,324.2925,Cash,6.7
+746-54-5508,A,Normal,Male,Home and lifestyle,21.52,6,6.456,135.576,Credit card,9.4
+276-54-0879,B,Normal,Male,Sports and travel,97.74,4,19.548,410.508,UPI,6.4
+815-11-1168,A,Member,Male,Food and beverages,99.78,5,24.945,523.845,Cash,5.4
+719-76-3868,C,Member,Male,Food and beverages,94.26,4,18.852,395.892,Cash,8.6
+730-61-8757,B,Member,Male,Health and beauty,51.13,4,10.226,214.746,Credit card,4
+340-66-0321,A,Member,Male,Electronic accessories,36.36,4,7.272,152.712,Cash,7.6
+868-81-1752,B,Normal,Male,Home and lifestyle,22.02,9,9.909,208.089,Cash,6.8
+634-97-8956,A,Normal,Male,Food and beverages,32.9,3,4.935,103.635,Credit card,9.1
+566-71-1091,A,Normal,Male,Fashion accessories,77.02,5,19.255,404.355,Cash,5.5
+442-48-3607,A,Member,Male,Food and beverages,23.48,2,2.348,49.308,Credit card,7.9
+835-16-0096,C,Member,Male,Sports and travel,14.7,5,3.675,77.175,UPI,8.5
+527-09-6272,A,Member,Female,Electronic accessories,28.45,5,7.1125,149.3625,Credit card,9.1
+898-04-2717,A,Normal,Male,Fashion accessories,76.4,9,34.38,721.98,UPI,7.5
+692-27-8933,B,Normal,Female,Sports and travel,57.95,6,17.385,365.085,Cash,5.2
+633-09-3463,C,Normal,Female,Electronic accessories,47.65,3,7.1475,150.0975,Credit card,9.5
+374-17-3652,B,Member,Female,Food and beverages,42.82,9,19.269,404.649,Credit card,8.9
+378-07-7001,B,Member,Male,Electronic accessories,48.09,3,7.2135,151.4835,Credit card,7.8
+433-75-6987,B,Member,Female,Health and beauty,55.97,7,19.5895,411.3795,UPI,8.9
+873-95-4984,B,Member,Female,Health and beauty,76.9,7,26.915,565.215,Cash,7.7
+416-13-5917,C,Normal,Female,Food and beverages,97.03,5,24.2575,509.4075,UPI,9.3
+150-89-8043,A,Normal,Male,Sports and travel,44.65,3,6.6975,140.6475,Cash,6.2
+135-84-8019,A,Normal,Female,Fashion accessories,77.93,9,35.0685,736.4385,UPI,7.6
+441-94-7118,A,Member,Male,Electronic accessories,71.95,1,3.5975,75.5475,Cash,7.3
+725-96-3778,C,Member,Female,Home and lifestyle,89.25,8,35.7,749.7,Cash,4.7
+531-80-1784,A,Normal,Male,Electronic accessories,26.02,7,9.107,191.247,Cash,5.1
+400-45-1220,B,Normal,Female,Health and beauty,13.5,10,6.75,141.75,Credit card,4.8
+860-79-0874,C,Member,Female,Fashion accessories,99.3,10,49.65,1042.65,Credit card,6.6
+834-61-8124,A,Normal,Male,Electronic accessories,51.69,7,18.0915,379.9215,Cash,5.5
+115-99-4379,B,Member,Female,Fashion accessories,54.73,7,19.1555,402.2655,Credit card,8.5
+565-67-6697,B,Member,Male,Home and lifestyle,27,9,12.15,255.15,Cash,4.8
+320-49-6392,C,Normal,Female,Electronic accessories,30.24,1,1.512,31.752,Cash,8.4
+889-04-9723,B,Member,Female,Food and beverages,89.14,4,17.828,374.388,Credit card,7.8
+632-90-0281,C,Normal,Female,Fashion accessories,37.55,10,18.775,394.275,Credit card,9.3
+554-42-2417,C,Normal,Female,Sports and travel,95.44,10,47.72,1002.12,Cash,5.2
+453-63-6187,B,Normal,Male,Electronic accessories,27.5,3,4.125,86.625,UPI,6.5
+578-80-7669,B,Normal,Male,Sports and travel,74.97,1,3.7485,78.7185,Cash,5.6
+612-36-5536,A,Member,Male,Food and beverages,80.96,8,32.384,680.064,Credit card,7.4
+605-72-4132,C,Normal,Female,Food and beverages,94.47,8,37.788,793.548,Cash,9.1
+471-41-2823,C,Normal,Male,Food and beverages,99.79,2,9.979,209.559,UPI,8
+462-67-9126,A,Normal,Male,Home and lifestyle,73.22,6,21.966,461.286,Cash,7.2
+272-27-9238,C,Normal,Female,Food and beverages,41.24,4,8.248,173.208,Cash,7.1
+834-25-9262,C,Normal,Female,Fashion accessories,81.68,4,16.336,343.056,Cash,9.1
+122-61-9553,C,Normal,Female,Electronic accessories,51.32,9,23.094,484.974,Cash,5.6
+468-88-0009,A,Member,Male,Home and lifestyle,65.94,4,13.188,276.948,Cash,6
+613-59-9758,C,Normal,Female,Sports and travel,14.36,10,7.18,150.78,Cash,5.4
+254-31-0042,A,Member,Male,Electronic accessories,21.5,9,9.675,203.175,Credit card,7.8
+201-86-2184,B,Member,Female,Electronic accessories,26.26,7,9.191,193.011,Cash,9.9
+261-12-8671,B,Normal,Female,Fashion accessories,60.96,2,6.096,128.016,Credit card,4.9
+730-70-9830,C,Normal,Female,Home and lifestyle,70.11,6,21.033,441.693,UPI,5.2
+382-25-8917,C,Normal,Male,Fashion accessories,42.08,6,12.624,265.104,Cash,8.9
+422-29-8786,A,Normal,Female,Home and lifestyle,67.09,5,16.7725,352.2225,Credit card,9.1
+667-23-5919,A,Member,Female,Fashion accessories,96.7,5,24.175,507.675,UPI,7
+843-01-4703,B,Member,Female,Home and lifestyle,35.38,9,15.921,334.341,Credit card,9.6
+743-88-1662,C,Normal,Male,Sports and travel,95.49,7,33.4215,701.8515,UPI,8.7
+595-86-2894,C,Member,Male,Fashion accessories,96.98,4,19.396,407.316,UPI,9.4
+182-69-8360,B,Normal,Female,Electronic accessories,23.65,4,4.73,99.33,Credit card,4
+289-15-7034,A,Member,Male,Sports and travel,82.33,4,16.466,345.786,Credit card,7.5
+462-78-5240,C,Normal,Female,Electronic accessories,26.61,2,2.661,55.881,Cash,4.2
+868-52-7573,B,Normal,Female,Food and beverages,99.69,5,24.9225,523.3725,Cash,9.9
+153-58-4872,C,Member,Female,Food and beverages,74.89,4,14.978,314.538,UPI,4.2
+662-72-2873,A,Normal,Female,Food and beverages,40.94,5,10.235,214.935,UPI,9.9
+525-88-7307,B,Member,Male,Sports and travel,75.82,1,3.791,79.611,Cash,5.8
+689-16-9784,C,Normal,Male,Food and beverages,46.77,6,14.031,294.651,Cash,6
+725-56-0833,A,Normal,Female,Health and beauty,32.32,10,16.16,339.36,Credit card,10
+394-41-0748,C,Member,Female,Fashion accessories,54.07,9,24.3315,510.9615,UPI,9.5
+596-42-3999,B,Normal,Male,Food and beverages,18.22,7,6.377,133.917,Credit card,6.6
+541-89-9860,C,Member,Female,Fashion accessories,80.48,3,12.072,253.512,Cash,8.1
+173-82-9529,B,Normal,Female,Fashion accessories,37.95,10,18.975,398.475,Cash,9.7
+563-36-9814,A,Member,Male,Electronic accessories,76.82,1,3.841,80.661,UPI,7.2
+308-47-4913,A,Member,Female,Sports and travel,52.26,10,26.13,548.73,Credit card,6.2
+885-17-6250,A,Normal,Female,Health and beauty,79.74,1,3.987,83.727,UPI,7.3
+726-27-2396,A,Normal,Female,Health and beauty,77.5,5,19.375,406.875,UPI,4.3
+316-01-3952,A,Normal,Female,Food and beverages,54.27,5,13.5675,284.9175,UPI,4.6
+760-54-1821,B,Normal,Male,Home and lifestyle,13.59,9,6.1155,128.4255,Cash,5.8
+793-10-3222,B,Member,Female,Health and beauty,41.06,6,12.318,258.678,Credit card,8.3
+346-12-3257,B,Member,Male,Electronic accessories,19.24,9,8.658,181.818,Cash,8
+110-05-6330,C,Normal,Female,Food and beverages,39.43,6,11.829,248.409,Credit card,9.4
+651-61-0874,C,Normal,Male,Home and lifestyle,46.22,4,9.244,194.124,Credit card,6.2
+236-86-3015,C,Member,Male,Home and lifestyle,13.98,1,0.699,14.679,UPI,9.8
+831-64-0259,B,Normal,Female,Fashion accessories,39.75,5,9.9375,208.6875,UPI,9.6
+587-03-7455,C,Member,Female,Fashion accessories,97.79,7,34.2265,718.7565,UPI,4.9
+882-40-4577,A,Member,Male,Sports and travel,67.26,4,13.452,282.492,Credit card,8
+732-67-5346,A,Normal,Male,Food and beverages,13.79,5,3.4475,72.3975,Credit card,7.8
+725-32-9708,B,Member,Female,Fashion accessories,68.71,4,13.742,288.582,Cash,4.1
+256-08-8343,A,Normal,Female,Home and lifestyle,56.53,4,11.306,237.426,UPI,5.5
+372-26-1506,C,Normal,Female,Fashion accessories,23.82,5,5.955,125.055,UPI,5.4
+244-08-0162,B,Normal,Female,Health and beauty,34.21,10,17.105,359.205,Cash,5.1
+569-71-4390,B,Normal,Male,Sports and travel,21.87,2,2.187,45.927,UPI,6.9
+132-23-6451,A,Member,Male,Health and beauty,20.97,5,5.2425,110.0925,Cash,7.8
+696-90-2548,A,Normal,Male,Sports and travel,25.84,3,3.876,81.396,UPI,6.6
+472-15-9636,A,Normal,Male,Home and lifestyle,50.93,8,20.372,427.812,UPI,9.2
+268-03-6164,B,Normal,Male,Health and beauty,96.11,1,4.8055,100.9155,UPI,7.8
+750-57-9686,C,Normal,Female,Home and lifestyle,45.38,4,9.076,190.596,Credit card,8.7
+186-09-3669,C,Member,Female,Health and beauty,81.51,1,4.0755,85.5855,UPI,9.2
+848-07-1692,B,Normal,Female,Health and beauty,57.22,2,5.722,120.162,UPI,8.3
+745-71-3520,A,Member,Female,Electronic accessories,25.22,7,8.827,185.367,Cash,8.2
+266-76-6436,C,Member,Female,Food and beverages,38.6,3,5.79,121.59,UPI,7.5
+740-22-2500,C,Normal,Female,Electronic accessories,84.05,3,12.6075,264.7575,Cash,9.8
+271-88-8734,C,Member,Female,Fashion accessories,97.21,10,48.605,1020.705,Credit card,8.7
+301-81-8610,B,Member,Male,Fashion accessories,25.42,8,10.168,213.528,Credit card,6.7
+489-64-4354,C,Normal,Male,Fashion accessories,16.28,1,0.814,17.094,Cash,5
+198-84-7132,B,Member,Male,Fashion accessories,40.61,9,18.2745,383.7645,Cash,7
+269-10-8440,A,Member,Male,Health and beauty,53.17,7,18.6095,390.7995,Cash,8.9
+650-98-6268,B,Member,Female,Food and beverages,20.87,3,3.1305,65.7405,Credit card,8
+741-73-3559,B,Normal,Male,Sports and travel,67.27,5,16.8175,353.1675,Cash,6.9
+325-77-6186,A,Member,Female,Home and lifestyle,90.65,10,45.325,951.825,UPI,7.3
+286-75-7818,B,Normal,Male,Fashion accessories,69.08,2,6.908,145.068,Credit card,6.9
+574-57-9721,C,Normal,Male,Food and beverages,43.27,2,4.327,90.867,UPI,5.7
+459-50-7686,A,Normal,Female,Electronic accessories,23.46,6,7.038,147.798,UPI,6.4
+616-87-0016,B,Normal,Male,Fashion accessories,95.54,7,33.439,702.219,Credit card,9.6
+837-55-7229,B,Normal,Female,Fashion accessories,47.44,1,2.372,49.812,Credit card,6.8
+751-69-0068,C,Normal,Male,Sports and travel,99.24,9,44.658,937.818,UPI,9
+257-73-1380,C,Member,Male,Sports and travel,82.93,4,16.586,348.306,UPI,9.6
+345-08-4992,A,Normal,Male,Home and lifestyle,33.99,6,10.197,214.137,Credit card,7.7
+549-96-4200,C,Member,Male,Food and beverages,17.04,4,3.408,71.568,UPI,7
+810-60-6344,C,Normal,Female,Electronic accessories,40.86,8,16.344,343.224,Credit card,6.5
+450-28-2866,C,Member,Male,Food and beverages,17.44,5,4.36,91.56,Cash,8.1
+394-30-3170,B,Member,Female,Sports and travel,88.43,8,35.372,742.812,Credit card,4.3
+138-17-5109,A,Member,Female,Home and lifestyle,89.21,9,40.1445,843.0345,Credit card,6.5
+192-98-7397,C,Normal,Male,Fashion accessories,12.78,1,0.639,13.419,UPI,9.5
+301-11-9629,A,Normal,Female,Sports and travel,19.1,7,6.685,140.385,Cash,9.7
+390-80-5128,B,Member,Female,Health and beauty,19.15,1,0.9575,20.1075,Credit card,9.5
+235-46-8343,C,Member,Male,Food and beverages,27.66,10,13.83,290.43,Credit card,8.9
+453-12-7053,C,Normal,Male,Fashion accessories,45.74,3,6.861,144.081,Credit card,6.5
+296-11-7041,B,Member,Female,Health and beauty,27.07,1,1.3535,28.4235,Credit card,5.3
+449-27-2918,B,Member,Female,Sports and travel,39.12,1,1.956,41.076,Credit card,9.6
+891-01-7034,B,Normal,Female,Electronic accessories,74.71,6,22.413,470.673,Cash,6.7
+744-09-5786,B,Normal,Male,Electronic accessories,22.01,6,6.603,138.663,Cash,7.6
+727-17-0390,A,Normal,Female,Food and beverages,63.61,5,15.9025,333.9525,UPI,4.8
+568-88-3448,A,Normal,Male,Health and beauty,25,1,1.25,26.25,UPI,5.5
+187-83-5490,A,Member,Male,Electronic accessories,20.77,4,4.154,87.234,Cash,4.7
+767-54-1907,B,Member,Female,Fashion accessories,29.56,5,7.39,155.19,Cash,6.9
+710-46-4433,B,Member,Female,Food and beverages,77.4,9,34.83,731.43,Credit card,4.5
+533-33-5337,B,Normal,Male,Electronic accessories,79.39,10,39.695,833.595,Cash,6.2
+325-90-8763,C,Member,Female,Electronic accessories,46.57,10,23.285,488.985,Cash,7.6
+729-46-7422,C,Normal,Male,Food and beverages,35.89,1,1.7945,37.6845,Credit card,7.9
+639-76-1242,C,Normal,Male,Food and beverages,40.52,5,10.13,212.73,Cash,4.5
+234-03-4040,B,Member,Female,Food and beverages,73.05,10,36.525,767.025,Credit card,8.7
+326-71-2155,C,Normal,Female,Sports and travel,73.95,4,14.79,310.59,Cash,6.1
+320-32-8842,C,Member,Female,Food and beverages,22.62,1,1.131,23.751,Cash,6.4
+470-32-9057,A,Member,Male,Food and beverages,51.34,5,12.835,269.535,Credit card,9.1
+878-30-2331,C,Member,Female,Sports and travel,54.55,10,27.275,572.775,Credit card,7.1
+440-59-5691,C,Member,Female,Health and beauty,37.15,7,13.0025,273.0525,Credit card,7.7
+554-53-3790,B,Normal,Male,Sports and travel,37.02,6,11.106,233.226,Cash,4.5
+746-19-0921,C,Normal,Male,Food and beverages,21.58,1,1.079,22.659,UPI,7.2
+233-34-0817,C,Member,Female,Electronic accessories,98.84,1,4.942,103.782,Cash,8.4
+767-05-1286,C,Member,Female,Home and lifestyle,83.77,6,25.131,527.751,UPI,5.4
+340-21-9136,A,Member,Female,Sports and travel,40.05,4,8.01,168.21,Cash,9.7
+405-31-3305,A,Member,Male,Fashion accessories,43.13,10,21.565,452.865,Credit card,5.5
+731-59-7531,B,Member,Male,Health and beauty,72.57,8,29.028,609.588,Cash,4.6
+676-39-6028,A,Member,Female,Electronic accessories,64.44,5,16.11,338.31,Cash,6.6
+502-05-1910,A,Normal,Male,Health and beauty,65.18,3,9.777,205.317,Credit card,6.3
+485-30-8700,A,Normal,Female,Sports and travel,33.26,5,8.315,174.615,Credit card,4.2
+598-47-9715,C,Normal,Male,Electronic accessories,84.07,4,16.814,353.094,UPI,4.4
+701-69-8742,B,Normal,Male,Sports and travel,34.37,10,17.185,360.885,UPI,6.7
+575-67-1508,A,Normal,Male,Electronic accessories,38.6,1,1.93,40.53,UPI,6.7
+541-08-3113,C,Normal,Male,Food and beverages,65.97,8,26.388,554.148,Cash,8.4
+246-11-3901,C,Normal,Female,Electronic accessories,32.8,10,16.4,344.4,Cash,6.2
+674-15-9296,A,Normal,Male,Sports and travel,37.14,5,9.285,194.985,UPI,5
+305-18-3552,B,Member,Male,Home and lifestyle,60.38,10,30.19,633.99,Cash,6
+493-65-6248,C,Member,Female,Sports and travel,36.98,10,18.49,388.29,Credit card,7
+438-01-4015,B,Member,Female,Sports and travel,49.49,4,9.898,207.858,UPI,6.6
+709-58-4068,B,Normal,Female,Fashion accessories,41.09,10,20.545,431.445,Cash,7.3
+795-49-7276,A,Normal,Male,Fashion accessories,37.15,4,7.43,156.03,UPI,8.3
+556-72-8512,C,Normal,Male,Home and lifestyle,22.96,1,1.148,24.108,Cash,4.3
+627-95-3243,B,Member,Female,Home and lifestyle,77.68,9,34.956,734.076,UPI,9.8
+686-41-0932,B,Normal,Female,Fashion accessories,34.7,2,3.47,72.87,UPI,8.2
+510-09-5628,A,Member,Female,Fashion accessories,19.66,10,9.83,206.43,Credit card,7.2
+608-04-3797,B,Member,Female,Health and beauty,25.32,8,10.128,212.688,UPI,8.7
+148-82-2527,C,Member,Female,Home and lifestyle,12.12,10,6.06,127.26,Credit card,8.4
+437-53-3084,B,Normal,Male,Fashion accessories,99.89,2,9.989,209.769,UPI,7.1
+632-32-4574,B,Normal,Male,Sports and travel,75.92,8,30.368,637.728,Cash,5.5
+556-97-7101,C,Normal,Female,Electronic accessories,63.22,2,6.322,132.762,Cash,8.5
+862-59-8517,C,Normal,Female,Food and beverages,90.24,6,27.072,568.512,Cash,6.2
+401-18-8016,B,Member,Female,Sports and travel,98.13,1,4.9065,103.0365,Cash,8.9
+420-18-8989,A,Member,Female,Sports and travel,51.52,8,20.608,432.768,Cash,9.6
+277-63-2961,B,Member,Male,Sports and travel,73.97,1,3.6985,77.6685,Credit card,5.4
+573-98-8548,C,Member,Female,Fashion accessories,31.9,1,1.595,33.495,UPI,9.1
+620-02-2046,C,Normal,Male,Home and lifestyle,69.4,2,6.94,145.74,UPI,9
+282-35-2475,B,Normal,Female,Sports and travel,93.31,2,9.331,195.951,Cash,6.3
+511-54-3087,B,Normal,Male,Sports and travel,88.45,1,4.4225,92.8725,Credit card,9.5
+726-29-6793,A,Member,Male,Electronic accessories,24.18,8,9.672,203.112,UPI,9.8
+387-49-4215,B,Member,Female,Sports and travel,48.5,3,7.275,152.775,Cash,6.7
+862-17-9201,B,Normal,Female,Food and beverages,84.05,6,25.215,529.515,Credit card,7.7
+291-21-5991,B,Member,Male,Health and beauty,61.29,5,15.3225,321.7725,Cash,7
+602-80-9671,C,Member,Female,Home and lifestyle,15.95,6,4.785,100.485,Credit card,5.1
+347-72-6115,B,Member,Female,Sports and travel,90.74,7,31.759,666.939,Credit card,6.2
+209-61-0206,A,Normal,Female,Home and lifestyle,42.91,5,10.7275,225.2775,UPI,6.1
+595-27-4851,A,Normal,Female,Fashion accessories,54.28,7,18.998,398.958,UPI,9.3
+189-52-0236,A,Normal,Male,Electronic accessories,99.55,7,34.8425,731.6925,Cash,7.6
+503-07-0930,C,Member,Male,Sports and travel,58.39,7,20.4365,429.1665,Credit card,8.2
+413-20-6708,C,Member,Female,Fashion accessories,51.47,1,2.5735,54.0435,UPI,8.5
+425-85-2085,B,Member,Male,Health and beauty,54.86,5,13.715,288.015,UPI,9.8
+521-18-7827,C,Member,Male,Home and lifestyle,39.39,5,9.8475,206.7975,Credit card,8.7
+220-28-1851,A,Normal,Male,Home and lifestyle,34.73,2,3.473,72.933,UPI,9.7
+600-38-9738,C,Member,Male,Sports and travel,71.92,5,17.98,377.58,Credit card,4.3
+734-91-1155,B,Normal,Female,Electronic accessories,45.71,3,6.8565,143.9865,Credit card,7.7
+451-28-5717,C,Member,Female,Home and lifestyle,83.17,6,24.951,523.971,Cash,7.3
+609-81-8548,A,Member,Female,Home and lifestyle,37.44,6,11.232,235.872,Credit card,5.9
+133-14-7229,C,Normal,Male,Health and beauty,62.87,2,6.287,132.027,Cash,5
+534-01-4457,A,Normal,Male,Food and beverages,81.71,6,24.513,514.773,Credit card,8
+719-89-8991,A,Member,Female,Sports and travel,91.41,5,22.8525,479.9025,UPI,7.1
+286-62-6248,B,Normal,Male,Fashion accessories,39.21,4,7.842,164.682,Credit card,9
+339-38-9982,B,Member,Male,Fashion accessories,59.86,2,5.986,125.706,UPI,6.7
+827-44-5872,B,Member,Female,Food and beverages,54.36,10,27.18,570.78,Credit card,6.1
+827-77-7633,A,Normal,Male,Sports and travel,98.09,9,44.1405,926.9505,Cash,9.3
+287-83-1405,A,Normal,Male,Health and beauty,25.43,6,7.629,160.209,UPI,7
+435-13-4908,A,Member,Male,Fashion accessories,86.68,8,34.672,728.112,Credit card,7.2
+857-67-9057,B,Normal,Male,Electronic accessories,22.95,10,11.475,240.975,UPI,8.2
+236-27-1144,C,Normal,Female,Food and beverages,16.31,9,7.3395,154.1295,UPI,8.4
+892-05-6689,A,Normal,Female,Home and lifestyle,28.32,5,7.08,148.68,UPI,6.2
+583-41-4548,C,Normal,Male,Home and lifestyle,16.67,7,5.8345,122.5245,UPI,7.4
+339-12-4827,B,Member,Female,Fashion accessories,73.96,1,3.698,77.658,Credit card,5
+643-38-7867,A,Normal,Male,Home and lifestyle,97.94,1,4.897,102.837,UPI,6.9
+308-81-0538,A,Normal,Female,Fashion accessories,73.05,4,14.61,306.81,Credit card,4.9
+358-88-9262,C,Member,Female,Food and beverages,87.48,6,26.244,551.124,UPI,5.1
+460-35-4390,A,Normal,Male,Home and lifestyle,30.68,3,4.602,96.642,UPI,9.1
+343-87-0864,C,Member,Male,Health and beauty,75.88,1,3.794,79.674,Credit card,7.1
+173-50-1108,B,Member,Female,Sports and travel,20.18,4,4.036,84.756,Credit card,5
+243-47-2663,C,Member,Male,Electronic accessories,18.77,6,5.631,118.251,Credit card,5.5
+841-18-8232,B,Normal,Female,Food and beverages,71.2,1,3.56,74.76,Credit card,9.2
+701-23-5550,B,Member,Male,Home and lifestyle,38.81,4,7.762,163.002,UPI,4.9
+647-50-1224,A,Normal,Female,Fashion accessories,29.42,10,14.71,308.91,UPI,8.9
+541-48-8554,A,Normal,Male,Sports and travel,60.95,9,27.4275,575.9775,Credit card,6
+539-21-7227,B,Normal,Female,Sports and travel,51.54,5,12.885,270.585,Cash,4.2
+213-32-1216,A,Normal,Female,Electronic accessories,66.06,6,19.818,416.178,Cash,7.3
+747-58-7183,B,Normal,Male,Fashion accessories,57.27,3,8.5905,180.4005,UPI,6.5
+582-52-8065,B,Normal,Female,Fashion accessories,54.31,9,24.4395,513.2295,Cash,8.9
+210-57-1719,B,Normal,Female,Health and beauty,58.24,9,26.208,550.368,Cash,9.7
+399-69-4630,C,Normal,Male,Electronic accessories,22.21,6,6.663,139.923,Credit card,8.6
+134-75-2619,A,Member,Male,Electronic accessories,19.32,7,6.762,142.002,Cash,6.9
+356-44-8813,B,Normal,Male,Home and lifestyle,37.48,3,5.622,118.062,Credit card,7.7
+198-66-9832,B,Member,Female,Fashion accessories,72.04,2,7.204,151.284,Cash,9.5
+283-26-5248,C,Member,Female,Food and beverages,98.52,10,49.26,1034.46,UPI,4.5
+712-39-0363,A,Member,Male,Food and beverages,41.66,6,12.498,262.458,UPI,5.6
+218-59-9410,A,Member,Female,Home and lifestyle,72.42,3,10.863,228.123,UPI,8.2
+174-75-0888,B,Normal,Male,Electronic accessories,21.58,9,9.711,203.931,Cash,7.3
+866-99-7614,C,Normal,Male,Food and beverages,89.2,10,44.6,936.6,Credit card,4.4
+134-54-4720,B,Normal,Female,Electronic accessories,42.42,8,16.968,356.328,UPI,5.7
+760-90-2357,A,Member,Male,Electronic accessories,74.51,6,22.353,469.413,UPI,5
+514-37-2845,B,Normal,Male,Fashion accessories,99.25,2,9.925,208.425,Cash,9
+698-98-5964,A,Normal,Female,Food and beverages,81.21,10,40.605,852.705,Credit card,6.3
+718-57-9773,C,Normal,Female,Sports and travel,49.33,10,24.665,517.965,Credit card,9.4
+651-88-7328,A,Normal,Female,Fashion accessories,65.74,9,29.583,621.243,Cash,7.7
+241-11-2261,B,Normal,Female,Fashion accessories,79.86,7,27.951,586.971,Credit card,5.5
+408-26-9866,C,Normal,Female,Sports and travel,73.98,7,25.893,543.753,UPI,4.1
+834-83-1826,B,Member,Female,Home and lifestyle,82.04,5,20.51,430.71,Credit card,7.6
+343-61-3544,B,Member,Male,Sports and travel,26.67,10,13.335,280.035,Cash,8.6
+239-48-4278,A,Member,Male,Food and beverages,10.13,7,3.5455,74.4555,UPI,8.3
+355-34-6244,B,Normal,Male,Food and beverages,72.39,2,7.239,152.019,Credit card,8.1
+550-84-8664,A,Normal,Male,Sports and travel,85.91,5,21.4775,451.0275,Credit card,8.6
+339-96-8318,B,Member,Male,Fashion accessories,81.31,7,28.4585,597.6285,UPI,6.3
+458-61-0011,B,Normal,Male,Food and beverages,60.3,4,12.06,253.26,Cash,5.8
+592-34-6155,C,Normal,Male,Food and beverages,31.77,4,6.354,133.434,UPI,6.2
+797-88-0493,A,Normal,Female,Health and beauty,64.27,4,12.854,269.934,Cash,7.7
+207-73-1363,B,Normal,Male,Health and beauty,69.51,2,6.951,145.971,UPI,8.1
+390-31-6381,C,Normal,Male,Food and beverages,27.22,3,4.083,85.743,Cash,7.3
+443-82-0585,A,Member,Female,Health and beauty,77.68,4,15.536,326.256,Cash,8.4
+339-18-7061,C,Member,Female,Fashion accessories,92.98,2,9.298,195.258,Credit card,8
+359-90-3665,B,Member,Female,Fashion accessories,18.08,4,3.616,75.936,Credit card,9.5
+375-72-3056,B,Normal,Male,Sports and travel,63.06,3,9.459,198.639,UPI,7
+127-47-6963,A,Normal,Male,Health and beauty,51.71,4,10.342,217.182,Credit card,9.8
+278-86-2735,A,Normal,Female,Food and beverages,52.34,3,7.851,164.871,Cash,9.2
+695-28-6250,A,Normal,Female,Sports and travel,43.06,5,10.765,226.065,UPI,7.7
+379-17-6588,C,Normal,Male,Fashion accessories,59.61,10,29.805,625.905,Cash,5.3
+227-50-3718,A,Normal,Male,Health and beauty,14.62,5,3.655,76.755,Cash,4.4
+302-15-2162,C,Member,Male,Health and beauty,46.53,6,13.959,293.139,Credit card,4.3
+788-07-8452,C,Member,Female,Home and lifestyle,24.24,7,8.484,178.164,UPI,9.4
+560-49-6611,A,Member,Female,Sports and travel,45.58,1,2.279,47.859,Cash,9.8
+880-35-0356,A,Member,Female,Sports and travel,75.2,3,11.28,236.88,UPI,4.8
+585-11-6748,B,Member,Male,Sports and travel,96.8,3,14.52,304.92,Cash,5.3
+470-31-3286,B,Normal,Male,Health and beauty,14.82,3,2.223,46.683,Credit card,8.7
+152-68-2907,A,Normal,Male,Food and beverages,52.2,3,7.83,164.43,Credit card,9.5
+123-35-4896,C,Normal,Female,Sports and travel,46.66,9,20.997,440.937,UPI,5.3
+258-69-7810,C,Normal,Female,Fashion accessories,36.85,5,9.2125,193.4625,Cash,9.2
+334-64-2006,A,Member,Female,Home and lifestyle,70.32,2,7.032,147.672,UPI,9.6
+219-61-4139,C,Normal,Male,Electronic accessories,83.08,1,4.154,87.234,UPI,6.4
+881-41-7302,C,Normal,Female,Fashion accessories,64.99,1,3.2495,68.2395,Credit card,4.5
+373-09-4567,C,Normal,Male,Food and beverages,77.56,10,38.78,814.38,UPI,6.9
+642-30-6693,B,Normal,Female,Sports and travel,54.51,6,16.353,343.413,UPI,7.8
+484-22-8230,C,Member,Female,Fashion accessories,51.89,7,18.1615,381.3915,Cash,4.5
+830-58-2383,B,Normal,Male,Home and lifestyle,31.75,4,6.35,133.35,Cash,8.6
+559-98-9873,A,Member,Female,Fashion accessories,53.65,7,18.7775,394.3275,UPI,5.2
+544-32-5024,C,Member,Female,Food and beverages,49.79,4,9.958,209.118,Credit card,6.4
+318-12-0304,A,Normal,Male,Fashion accessories,30.61,1,1.5305,32.1405,UPI,5.2
+349-97-8902,B,Member,Male,Food and beverages,57.89,2,5.789,121.569,UPI,8.9
+421-95-9805,A,Normal,Female,Electronic accessories,28.96,1,1.448,30.408,Credit card,6.2
+277-35-5865,C,Member,Female,Food and beverages,98.97,9,44.5365,935.2665,Cash,6.7
+789-23-8625,B,Member,Male,Fashion accessories,93.22,3,13.983,293.643,Cash,7.2
+284-54-4231,C,Member,Male,Sports and travel,80.93,1,4.0465,84.9765,Credit card,9
+443-59-0061,A,Member,Male,Food and beverages,67.45,10,33.725,708.225,UPI,4.2
+509-29-3912,A,Member,Female,Sports and travel,38.72,9,17.424,365.904,UPI,4.2
+327-40-9673,B,Member,Male,Sports and travel,72.6,6,21.78,457.38,Cash,6.9
+840-19-2096,C,Member,Male,Electronic accessories,87.91,5,21.9775,461.5275,UPI,4.4
+828-46-6863,A,Member,Male,Food and beverages,98.53,6,29.559,620.739,Credit card,4
+641-96-3695,C,Member,Female,Fashion accessories,43.46,6,13.038,273.798,UPI,8.5
+420-97-3340,A,Normal,Female,Food and beverages,71.68,3,10.752,225.792,Credit card,9.2
+436-54-4512,A,Member,Female,Food and beverages,91.61,1,4.5805,96.1905,Cash,9.8
+670-79-6321,B,Member,Female,Home and lifestyle,94.59,7,33.1065,695.2365,Credit card,4.9
+852-62-7105,B,Normal,Female,Fashion accessories,83.25,10,41.625,874.125,Credit card,4.4
+598-06-7312,B,Member,Male,Fashion accessories,91.35,1,4.5675,95.9175,Cash,6.8
+135-13-8269,B,Member,Female,Food and beverages,78.88,2,7.888,165.648,Cash,9.1
+816-57-2053,A,Normal,Male,Sports and travel,60.87,2,6.087,127.827,UPI,8.7
+628-90-8624,B,Member,Male,Health and beauty,82.58,10,41.29,867.09,Cash,5
+856-66-2701,A,Member,Male,Home and lifestyle,53.3,3,7.995,167.895,UPI,7.5
+308-39-1707,A,Normal,Female,Fashion accessories,12.09,1,0.6045,12.6945,Credit card,8.2
+149-61-1929,A,Normal,Male,Sports and travel,64.19,10,32.095,673.995,Credit card,6.7
+655-07-2265,A,Normal,Male,Electronic accessories,78.31,3,11.7465,246.6765,UPI,5.4
+589-02-8023,A,Member,Male,Food and beverages,83.77,2,8.377,175.917,Credit card,7
+420-04-7590,B,Normal,Male,Home and lifestyle,99.7,3,14.955,314.055,UPI,4.7
+182-88-2763,B,Member,Male,Food and beverages,79.91,3,11.9865,251.7165,Credit card,5
+188-55-0967,B,Member,Male,Health and beauty,66.47,10,33.235,697.935,Credit card,5
+610-46-4100,A,Normal,Male,Health and beauty,28.95,7,10.1325,212.7825,Credit card,6
+318-81-2368,C,Normal,Female,Electronic accessories,46.2,1,2.31,48.51,Cash,6.3
+364-33-8584,B,Member,Female,Food and beverages,17.63,5,4.4075,92.5575,Cash,8.5
+665-63-9737,B,Normal,Male,Fashion accessories,52.42,3,7.863,165.123,UPI,7.5
+695-09-5146,B,Member,Female,Food and beverages,98.79,3,14.8185,311.1885,UPI,6.4
+155-45-3814,C,Member,Female,Electronic accessories,88.55,8,35.42,743.82,UPI,4.7
+794-32-2436,B,Member,Male,Electronic accessories,55.67,2,5.567,116.907,UPI,6
+131-15-8856,C,Member,Female,Food and beverages,72.52,8,29.008,609.168,Credit card,4
+273-84-2164,C,Member,Male,Electronic accessories,12.05,5,3.0125,63.2625,UPI,5.5
+706-36-6154,A,Member,Male,Home and lifestyle,19.36,9,8.712,182.952,UPI,8.7
+778-89-7974,C,Normal,Male,Health and beauty,70.21,6,21.063,442.323,Cash,7.4
+574-31-8277,B,Member,Male,Fashion accessories,33.63,1,1.6815,35.3115,Cash,5.6
+859-71-0933,C,Member,Female,Sports and travel,15.49,2,1.549,32.529,Cash,6.3
+740-11-5257,C,Normal,Male,Electronic accessories,24.74,10,12.37,259.77,Cash,7.1
+369-82-2676,B,Normal,Male,Electronic accessories,75.66,5,18.915,397.215,UPI,7.8
+563-47-4072,B,Normal,Female,Health and beauty,55.81,6,16.743,351.603,Cash,9.9
+742-04-5161,A,Member,Male,Home and lifestyle,72.78,10,36.39,764.19,Cash,7.3
+149-15-7606,B,Member,Male,Sports and travel,37.32,9,16.794,352.674,UPI,5.1
+133-77-3154,B,Member,Male,Fashion accessories,60.18,4,12.036,252.756,Credit card,9.4
+169-52-4504,A,Normal,Female,Electronic accessories,15.69,3,2.3535,49.4235,Credit card,5.8
+250-81-7186,C,Normal,Female,Electronic accessories,99.69,1,4.9845,104.6745,Credit card,8
+562-12-5430,A,Member,Female,Fashion accessories,88.15,3,13.2225,277.6725,UPI,7.9
+816-72-8853,A,Member,Female,Sports and travel,27.93,5,6.9825,146.6325,Cash,5.9
+491-38-3499,A,Member,Male,Fashion accessories,55.45,1,2.7725,58.2225,Credit card,4.9
+322-02-2271,B,Normal,Female,Sports and travel,42.97,3,6.4455,135.3555,Cash,9.3
+842-29-4695,C,Member,Male,Sports and travel,17.14,7,5.999,125.979,Credit card,7.9
+725-67-2480,B,Member,Female,Fashion accessories,58.75,6,17.625,370.125,Credit card,5.9
+641-51-2661,C,Member,Female,Food and beverages,87.1,10,43.55,914.55,Credit card,9.9
+714-02-3114,C,Normal,Female,Sports and travel,98.8,2,9.88,207.48,Cash,7.7
+518-17-2983,A,Normal,Female,Fashion accessories,48.63,4,9.726,204.246,UPI,7.6
+779-42-2410,B,Member,Male,Food and beverages,57.74,3,8.661,181.881,UPI,7.7
+190-14-3147,B,Normal,Female,Health and beauty,17.97,4,3.594,75.474,UPI,6.4
+408-66-6712,C,Member,Female,Health and beauty,47.71,6,14.313,300.573,UPI,4.4
+679-22-6530,B,Normal,Female,Sports and travel,40.62,2,4.062,85.302,Credit card,4.1
+588-47-8641,A,Member,Male,Fashion accessories,56.04,10,28.02,588.42,UPI,4.4
+642-61-4706,B,Member,Male,Food and beverages,93.4,2,9.34,196.14,Cash,5.5
+576-31-4774,B,Normal,Female,Health and beauty,73.41,3,11.0115,231.2415,UPI,4
+556-41-6224,C,Normal,Male,Health and beauty,33.64,8,13.456,282.576,Credit card,9.3
+811-03-8790,A,Normal,Female,Electronic accessories,45.48,10,22.74,477.54,Credit card,4.8
+242-11-3142,B,Member,Male,Fashion accessories,83.77,2,8.377,175.917,Cash,4.6
+752-23-3760,B,Member,Female,Sports and travel,64.08,7,22.428,470.988,Credit card,7.3
+274-05-5470,A,Member,Female,Food and beverages,73.47,4,14.694,308.574,Cash,6
+648-94-3045,C,Normal,Male,Health and beauty,58.95,10,29.475,618.975,UPI,8.1
+130-67-4723,A,Member,Male,Food and beverages,48.5,6,14.55,305.55,UPI,9.4
+528-87-5606,B,Member,Female,Electronic accessories,39.48,1,1.974,41.454,Cash,6.5
+320-85-2052,B,Normal,Female,Sports and travel,34.81,1,1.7405,36.5505,Credit card,7
+370-96-0655,C,Normal,Female,Fashion accessories,49.32,6,14.796,310.716,UPI,7.1
+105-10-6182,A,Member,Male,Fashion accessories,21.48,2,2.148,45.108,UPI,6.6
+510-79-0415,B,Member,Female,Sports and travel,23.08,6,6.924,145.404,UPI,4.9
+241-96-5076,B,Member,Female,Home and lifestyle,49.1,2,4.91,103.11,Credit card,6.4
+767-97-4650,B,Member,Female,Sports and travel,64.83,2,6.483,136.143,Credit card,8
+648-83-1321,A,Member,Male,Home and lifestyle,63.56,10,31.78,667.38,Cash,4.3
+173-57-2300,C,Member,Male,Sports and travel,72.88,2,7.288,153.048,Cash,6.1
+305-03-2383,A,Normal,Female,Food and beverages,67.1,3,10.065,211.365,Cash,7.5
+394-55-6384,C,Member,Female,Sports and travel,70.19,9,31.5855,663.2955,Cash,6.7
+266-20-6657,C,Member,Male,Food and beverages,55.04,7,19.264,404.544,UPI,5.2
+689-05-1884,A,Member,Male,Health and beauty,48.63,10,24.315,510.615,Cash,8.8
+196-01-2849,C,Member,Female,Fashion accessories,73.38,7,25.683,539.343,Cash,9.5
+372-62-5264,C,Normal,Female,Food and beverages,52.6,9,23.67,497.07,Cash,7.6
+800-09-8606,A,Member,Female,Home and lifestyle,87.37,5,21.8425,458.6925,Cash,6.6
+182-52-7000,A,Member,Female,Sports and travel,27.04,4,5.408,113.568,UPI,6.9
+826-58-8051,B,Normal,Male,Home and lifestyle,62.19,4,12.438,261.198,UPI,4.3
+868-06-0466,A,Member,Male,Electronic accessories,69.58,9,31.311,657.531,Credit card,7.8
+751-41-9720,C,Normal,Male,Home and lifestyle,97.5,10,48.75,1023.75,UPI,8
+626-43-7888,C,Normal,Female,Fashion accessories,60.41,8,24.164,507.444,UPI,9.6
+176-64-7711,B,Normal,Male,Food and beverages,32.32,3,4.848,101.808,Credit card,4.3
+191-29-0321,B,Member,Female,Fashion accessories,19.77,10,9.885,207.585,Credit card,5
+729-06-2010,B,Member,Male,Health and beauty,80.47,9,36.2115,760.4415,Cash,9.2
+640-48-5028,B,Member,Female,Home and lifestyle,88.39,9,39.7755,835.2855,Cash,6.3
+186-79-9562,B,Normal,Male,Health and beauty,71.77,7,25.1195,527.5095,Cash,8.9
+834-45-5519,B,Normal,Female,Electronic accessories,43,4,8.6,180.6,UPI,7.6
+162-65-8559,C,Member,Male,Food and beverages,68.98,1,3.449,72.429,Cash,4.8
+760-27-5490,C,Normal,Male,Fashion accessories,15.62,8,6.248,131.208,UPI,9.1
+445-30-9252,A,Normal,Male,Sports and travel,25.7,3,3.855,80.955,UPI,6.1
+786-94-2700,A,Member,Male,Food and beverages,80.62,6,24.186,507.906,Cash,9.1
+728-88-7867,C,Member,Female,Home and lifestyle,75.53,4,15.106,317.226,UPI,8.3
+183-21-3799,C,Normal,Female,Electronic accessories,77.63,9,34.9335,733.6035,UPI,7.2
+268-20-3585,C,Normal,Female,Health and beauty,13.85,9,6.2325,130.8825,UPI,6
+735-32-9839,C,Member,Male,Fashion accessories,98.7,8,39.48,829.08,UPI,8.5
+258-92-7466,A,Normal,Female,Health and beauty,35.68,5,8.92,187.32,Credit card,6.6
+857-16-3520,A,Member,Female,Fashion accessories,71.46,7,25.011,525.231,UPI,4.5
+482-17-1179,A,Member,Male,Electronic accessories,11.94,3,1.791,37.611,Credit card,8.1
+788-21-5741,A,Normal,Male,Fashion accessories,45.38,3,6.807,142.947,Credit card,7.2
+821-14-9046,B,Member,Female,Fashion accessories,17.48,6,5.244,110.124,Credit card,6.1
+418-05-0656,B,Normal,Female,Fashion accessories,25.56,7,8.946,187.866,Cash,7.1
+678-79-0726,C,Member,Female,Sports and travel,90.63,9,40.7835,856.4535,Cash,5.1
+776-68-1096,B,Normal,Male,Home and lifestyle,44.12,3,6.618,138.978,Credit card,7.9
+592-46-1692,C,Member,Female,Food and beverages,36.77,7,12.8695,270.2595,Cash,7.4
+434-35-9162,B,Member,Male,Food and beverages,23.34,4,4.668,98.028,UPI,7.4
+149-14-0304,C,Member,Female,Health and beauty,28.5,8,11.4,239.4,Cash,6.6
+442-44-6497,C,Member,Male,Home and lifestyle,55.57,3,8.3355,175.0455,Credit card,5.9
+174-64-0215,B,Normal,Male,Sports and travel,69.74,10,34.87,732.27,Credit card,8.9
+210-74-9613,C,Normal,Male,Fashion accessories,97.26,4,19.452,408.492,UPI,6.8
+299-29-0180,B,Member,Female,Home and lifestyle,52.18,7,18.263,383.523,Cash,9.3
+247-11-2470,A,Member,Female,Fashion accessories,22.32,4,4.464,93.744,Credit card,4.4
+635-28-5728,A,Normal,Male,Health and beauty,56,3,8.4,176.4,UPI,4.8
+756-49-0168,A,Member,Male,Fashion accessories,19.7,1,0.985,20.685,UPI,9.5
+438-23-1242,B,Normal,Male,Electronic accessories,75.88,7,26.558,557.718,UPI,8.9
+238-45-6950,B,Member,Male,Food and beverages,53.72,1,2.686,56.406,UPI,6.4
+607-65-2441,C,Member,Male,Health and beauty,81.95,10,40.975,860.475,Credit card,6
+386-27-7606,C,Member,Female,Home and lifestyle,81.2,7,28.42,596.82,Credit card,8.1
+137-63-5492,C,Normal,Male,Electronic accessories,58.76,10,29.38,616.98,UPI,9
+197-77-7132,B,Member,Male,Electronic accessories,91.56,8,36.624,769.104,UPI,6
+805-86-0265,A,Normal,Male,Home and lifestyle,93.96,9,42.282,887.922,Cash,9.8
+733-29-1227,C,Normal,Male,Home and lifestyle,55.61,7,19.4635,408.7335,Cash,8.5
+451-73-2711,C,Normal,Male,Food and beverages,84.83,1,4.2415,89.0715,UPI,8.8
+373-14-0504,A,Member,Female,Sports and travel,71.63,2,7.163,150.423,UPI,8.8
+546-80-2899,A,Member,Male,Home and lifestyle,37.69,2,3.769,79.149,UPI,9.5
+345-68-9016,C,Member,Female,Sports and travel,31.67,8,12.668,266.028,Credit card,5.6
+390-17-5806,C,Member,Female,Food and beverages,38.42,1,1.921,40.341,Cash,8.6
+457-13-1708,B,Member,Male,Fashion accessories,65.23,10,32.615,684.915,Credit card,5.2
+664-14-2882,C,Member,Female,Home and lifestyle,10.53,5,2.6325,55.2825,Credit card,5.8
+487-79-6868,B,Member,Female,Home and lifestyle,12.29,9,5.5305,116.1405,Credit card,8
+314-23-4520,C,Member,Male,Health and beauty,81.23,7,28.4305,597.0405,Cash,9
+210-30-7976,B,Member,Female,Fashion accessories,22.32,4,4.464,93.744,UPI,4.1
+585-86-8361,A,Normal,Female,Food and beverages,27.28,5,6.82,143.22,Credit card,8.6
+807-14-7833,A,Member,Female,Electronic accessories,17.42,10,8.71,182.91,UPI,7
+775-72-1988,B,Normal,Male,Home and lifestyle,73.28,5,18.32,384.72,UPI,8.4
+288-38-3758,C,Member,Female,Fashion accessories,84.87,3,12.7305,267.3405,UPI,7.4
+652-43-6591,A,Normal,Female,Fashion accessories,97.29,8,38.916,817.236,Credit card,6.2
+785-96-0615,B,Member,Female,Electronic accessories,35.74,8,14.296,300.216,UPI,4.9
+406-46-7107,A,Normal,Female,Home and lifestyle,96.52,6,28.956,608.076,Cash,4.5
+250-17-5703,A,Member,Male,Food and beverages,18.85,10,9.425,197.925,UPI,5.6
+156-95-3964,A,Normal,Female,Food and beverages,55.39,4,11.078,232.638,UPI,8
+842-40-8179,B,Member,Female,Food and beverages,77.2,10,38.6,810.6,Credit card,5.6
+525-09-8450,B,Normal,Male,Electronic accessories,72.13,10,36.065,757.365,Credit card,4.2
+410-67-1709,A,Member,Female,Fashion accessories,63.88,8,25.552,536.592,UPI,9.9
+587-73-4862,A,Member,Female,Health and beauty,10.69,5,2.6725,56.1225,UPI,7.6
+787-87-2010,A,Member,Male,Health and beauty,55.5,4,11.1,233.1,Credit card,6.6
+593-14-4239,B,Normal,Female,Home and lifestyle,95.46,8,38.184,801.864,UPI,4.7
+801-88-0346,C,Normal,Female,Fashion accessories,76.06,3,11.409,239.589,Credit card,9.8
+388-76-2555,B,Normal,Male,Sports and travel,13.69,6,4.107,86.247,Cash,6.3
+711-31-1234,B,Normal,Female,Electronic accessories,95.64,4,19.128,401.688,Cash,7.9
+886-54-6089,A,Normal,Female,Home and lifestyle,11.43,6,3.429,72.009,Cash,7.7
+707-32-7409,B,Member,Female,Sports and travel,95.54,4,19.108,401.268,UPI,4.5
+759-98-4285,C,Member,Female,Health and beauty,85.87,7,30.0545,631.1445,Credit card,8
+201-63-8275,C,Member,Female,Sports and travel,67.99,7,23.7965,499.7265,UPI,5.7
+471-06-8611,C,Normal,Female,Food and beverages,52.42,1,2.621,55.041,Credit card,6.3
+200-16-5952,C,Member,Male,Food and beverages,65.65,2,6.565,137.865,Cash,6
+120-54-2248,B,Normal,Female,Food and beverages,28.86,5,7.215,151.515,Credit card,8
+102-77-2261,C,Member,Male,Health and beauty,65.31,7,22.8585,480.0285,Credit card,4.2
+875-31-8302,B,Normal,Male,Sports and travel,93.38,1,4.669,98.049,Cash,9.6
+102-06-2002,C,Member,Male,Sports and travel,25.25,5,6.3125,132.5625,Cash,6.1
+457-94-0464,B,Member,Male,Electronic accessories,87.87,9,39.5415,830.3715,UPI,5.6
+629-42-4133,C,Normal,Male,Health and beauty,21.8,8,8.72,183.12,Cash,8.3
+534-53-3526,A,Normal,Female,Sports and travel,94.76,4,18.952,397.992,UPI,7.8
+307-04-2070,A,Member,Female,Fashion accessories,30.62,1,1.531,32.151,Credit card,4.1
+468-99-7231,C,Normal,Female,Home and lifestyle,44.01,8,17.604,369.684,Cash,8.8
+516-77-6464,C,Member,Female,Health and beauty,10.16,5,2.54,53.34,UPI,4.1
+404-91-5964,A,Normal,Male,Electronic accessories,74.58,7,26.103,548.163,Credit card,9
+886-77-9084,C,Normal,Male,Electronic accessories,71.89,8,28.756,603.876,UPI,5.5
+790-38-4466,C,Normal,Female,Health and beauty,10.99,5,2.7475,57.6975,Credit card,9.3
+704-10-4056,C,Member,Male,Health and beauty,60.47,3,9.0705,190.4805,Credit card,5.6
+497-37-6538,A,Normal,Male,Sports and travel,58.91,7,20.6185,432.9885,UPI,9.7
+651-96-5970,A,Normal,Male,Fashion accessories,46.41,1,2.3205,48.7305,Credit card,4
+400-80-4065,C,Member,Male,Health and beauty,68.55,4,13.71,287.91,Credit card,9.2
+744-16-7898,B,Normal,Female,Home and lifestyle,97.37,10,48.685,1022.385,Credit card,4.9
+263-12-5321,A,Member,Male,Electronic accessories,92.6,7,32.41,680.61,Credit card,9.3
+702-72-0487,A,Normal,Female,Electronic accessories,46.61,2,4.661,97.881,Credit card,6.6
+605-83-1050,B,Normal,Male,Fashion accessories,27.18,2,2.718,57.078,UPI,4.3
+443-60-9639,C,Member,Female,Home and lifestyle,60.87,1,3.0435,63.9135,Cash,5.5
+864-24-7918,A,Member,Female,Sports and travel,24.49,10,12.245,257.145,Cash,8.1
+359-94-5395,B,Normal,Male,Health and beauty,92.78,1,4.639,97.419,Credit card,9.8
+401-09-4232,C,Member,Male,Home and lifestyle,86.69,5,21.6725,455.1225,UPI,9.4
+751-15-6198,B,Normal,Male,Sports and travel,23.01,6,6.903,144.963,UPI,7.9
+324-41-6833,C,Member,Female,Electronic accessories,30.2,8,12.08,253.68,UPI,5.1
+474-33-8305,C,Member,Male,Fashion accessories,67.39,7,23.5865,495.3165,UPI,6.9
+759-29-9521,A,Member,Female,Fashion accessories,48.96,9,22.032,462.672,Cash,8
+831-81-6575,B,Member,Female,Electronic accessories,75.59,9,34.0155,714.3255,Cash,8
+220-68-6701,A,Normal,Female,Home and lifestyle,77.47,4,15.494,325.374,Cash,4.2
+618-34-8551,A,Normal,Female,Sports and travel,93.18,2,9.318,195.678,Credit card,8.5
+257-60-7754,A,Normal,Female,Electronic accessories,50.23,4,10.046,210.966,Cash,9
+559-61-5987,B,Normal,Female,Health and beauty,17.75,1,0.8875,18.6375,Cash,8.6
+189-55-2313,C,Normal,Female,Fashion accessories,62.18,10,31.09,652.89,UPI,6
+565-91-4567,B,Normal,Male,Health and beauty,10.75,8,4.3,90.3,UPI,6.2
+380-60-5336,A,Normal,Female,Electronic accessories,40.26,10,20.13,422.73,Credit card,5
+815-04-6282,C,Member,Female,Sports and travel,64.97,5,16.2425,341.0925,Credit card,6.5
+674-56-6360,A,Normal,Male,Electronic accessories,95.15,1,4.7575,99.9075,Cash,6
+778-34-2523,A,Member,Female,Electronic accessories,48.62,8,19.448,408.408,Cash,5
+499-27-7781,B,Normal,Female,Food and beverages,53.21,8,21.284,446.964,UPI,5
+477-59-2456,C,Normal,Female,Fashion accessories,45.44,7,15.904,333.984,Cash,9.2
+832-51-6761,A,Normal,Male,Food and beverages,33.88,8,13.552,284.592,UPI,9.6
+869-11-3082,B,Member,Male,Health and beauty,96.16,4,19.232,403.872,Credit card,8.4
+190-59-3964,B,Member,Male,Food and beverages,47.16,5,11.79,247.59,Credit card,6
+366-43-6862,B,Normal,Male,Electronic accessories,52.89,4,10.578,222.138,UPI,6.7
+186-43-8965,A,Member,Female,Home and lifestyle,47.68,2,4.768,100.128,Credit card,4.1
+784-21-9238,C,Member,Male,Sports and travel,10.17,1,0.5085,10.6785,Cash,5.9
+276-75-6884,A,Normal,Female,Health and beauty,68.71,3,10.3065,216.4365,Cash,8.7
+109-86-4363,B,Member,Female,Sports and travel,60.08,7,21.028,441.588,Credit card,4.5
+569-76-2760,A,Member,Female,Sports and travel,22.01,4,4.402,92.442,Credit card,6.6
+222-42-0244,B,Member,Female,Health and beauty,72.11,9,32.4495,681.4395,Credit card,7.7
+760-53-9233,A,Member,Male,Fashion accessories,41.28,3,6.192,130.032,Credit card,8.5
+538-22-0304,C,Normal,Male,Electronic accessories,64.95,10,32.475,681.975,Cash,5.2
+416-17-9926,A,Member,Female,Electronic accessories,74.22,10,37.11,779.31,Credit card,4.3
+237-44-6163,A,Normal,Male,Electronic accessories,10.56,8,4.224,88.704,Cash,7.6
+636-17-0325,B,Normal,Male,Health and beauty,62.57,4,12.514,262.794,Cash,9.5
+343-75-9322,B,Member,Female,Sports and travel,11.85,8,4.74,99.54,Cash,4.1
+528-14-9470,A,Member,Male,Health and beauty,91.3,1,4.565,95.865,UPI,9.2
+427-45-9297,B,Member,Female,Home and lifestyle,40.73,7,14.2555,299.3655,UPI,5.4
+807-34-3742,A,Normal,Male,Fashion accessories,52.38,1,2.619,54.999,Cash,5.8
+288-62-1085,A,Member,Male,Fashion accessories,38.54,5,9.635,202.335,UPI,5.6
+670-71-7306,B,Normal,Male,Sports and travel,44.63,6,13.389,281.169,Credit card,5.1
+660-29-7083,C,Normal,Male,Electronic accessories,55.87,10,27.935,586.635,Cash,5.8
+271-77-8740,C,Member,Female,Sports and travel,29.22,6,8.766,184.086,UPI,5
+497-36-0989,A,Normal,Male,Fashion accessories,51.94,3,7.791,163.611,Cash,7.9
+291-59-1384,B,Normal,Male,Electronic accessories,60.3,1,3.015,63.315,Cash,6
+860-73-6466,A,Member,Female,Sports and travel,39.47,2,3.947,82.887,Credit card,5
+549-23-9016,C,Member,Female,Food and beverages,14.87,2,1.487,31.227,Credit card,8.9
+896-34-0956,A,Normal,Male,Fashion accessories,21.32,1,1.066,22.386,Cash,5.9
+804-38-3935,A,Member,Male,Electronic accessories,93.78,3,14.067,295.407,Credit card,5.9
+585-90-0249,A,Member,Male,Electronic accessories,73.26,1,3.663,76.923,UPI,9.7
+862-29-5914,C,Normal,Female,Sports and travel,22.38,1,1.119,23.499,Credit card,8.6
+845-94-6841,C,Member,Female,Food and beverages,72.88,9,32.796,688.716,Cash,4
+125-45-2293,A,Normal,Female,Fashion accessories,99.1,6,29.73,624.33,Cash,4.2
+843-73-4724,A,Normal,Male,Fashion accessories,74.1,1,3.705,77.805,Cash,9.2
+409-33-9708,A,Normal,Female,Fashion accessories,98.48,2,9.848,206.808,UPI,9.2
+658-66-3967,C,Normal,Male,Health and beauty,53.19,7,18.6165,390.9465,UPI,5
+866-70-2814,B,Normal,Female,Electronic accessories,52.79,10,26.395,554.295,UPI,10
+160-22-2687,A,Member,Female,Health and beauty,95.95,5,23.9875,503.7375,UPI,8.8
+895-03-6665,B,Normal,Female,Fashion accessories,36.51,9,16.4295,345.0195,Cash,4.2
+770-42-8960,B,Normal,Male,Food and beverages,21.12,8,8.448,177.408,Cash,6.3
+748-45-2862,A,Member,Female,Home and lifestyle,28.31,4,5.662,118.902,Cash,8.2
+234-36-2483,B,Normal,Male,Health and beauty,57.59,6,17.277,362.817,Cash,5.1
+316-66-3011,A,Member,Female,Food and beverages,47.63,9,21.4335,450.1035,Cash,5
+848-95-6252,C,Member,Female,Home and lifestyle,86.27,1,4.3135,90.5835,UPI,7
+840-76-5966,A,Member,Male,Sports and travel,12.76,2,1.276,26.796,UPI,7.8
+152-03-4217,B,Normal,Female,Home and lifestyle,11.28,9,5.076,106.596,Credit card,4.3
+533-66-5566,B,Normal,Female,Home and lifestyle,51.07,7,17.8745,375.3645,Cash,7
+124-31-1458,A,Member,Female,Electronic accessories,79.59,3,11.9385,250.7085,Cash,6.6
+176-78-1170,C,Member,Male,Health and beauty,33.81,3,5.0715,106.5015,UPI,7.3
+361-59-0574,B,Member,Male,Sports and travel,90.53,8,36.212,760.452,Credit card,6.5
+101-81-4070,C,Member,Female,Health and beauty,62.82,2,6.282,131.922,UPI,4.9
+631-34-1880,C,Member,Male,Food and beverages,24.31,3,3.6465,76.5765,Credit card,4.3
+852-82-2749,A,Normal,Male,Sports and travel,64.59,4,12.918,271.278,UPI,9.3
+873-14-6353,A,Member,Male,Food and beverages,24.82,7,8.687,182.427,Credit card,7.1
+584-66-4073,C,Normal,Male,Fashion accessories,56.5,1,2.825,59.325,UPI,9.6
+544-55-9589,B,Member,Female,Electronic accessories,21.43,10,10.715,225.015,Cash,6.2
+166-19-2553,A,Member,Male,Sports and travel,89.06,6,26.718,561.078,Cash,9.9
+737-88-5876,A,Member,Male,Home and lifestyle,23.29,4,4.658,97.818,Credit card,5.9
+154-87-7367,C,Normal,Male,Home and lifestyle,65.26,8,26.104,548.184,UPI,6.3
+885-56-0389,C,Member,Male,Fashion accessories,52.35,1,2.6175,54.9675,Cash,4
+608-05-3804,B,Member,Male,Electronic accessories,39.75,1,1.9875,41.7375,Cash,6.1
+448-61-3783,A,Normal,Female,Electronic accessories,90.02,8,36.008,756.168,Credit card,4.5
+761-49-0439,B,Member,Female,Electronic accessories,12.1,8,4.84,101.64,UPI,8.6
+490-95-0021,B,Member,Female,Food and beverages,33.21,10,16.605,348.705,UPI,6
+115-38-7388,C,Member,Female,Fashion accessories,10.18,8,4.072,85.512,Credit card,9.5
+311-13-6971,B,Member,Male,Sports and travel,31.99,10,15.995,335.895,Credit card,9.9
+291-55-6563,A,Member,Female,Home and lifestyle,34.42,6,10.326,216.846,UPI,7.5
+548-48-3156,A,Member,Female,Food and beverages,83.34,2,8.334,175.014,Cash,7.6
+460-93-5834,A,Normal,Male,Sports and travel,45.58,7,15.953,335.013,Cash,5
+325-89-4209,A,Member,Male,Food and beverages,87.9,1,4.395,92.295,UPI,6.7
+884-80-6021,A,Member,Female,Electronic accessories,73.47,10,36.735,771.435,UPI,9.5
+137-74-8729,C,Normal,Female,Fashion accessories,12.19,8,4.876,102.396,UPI,6.8
+880-46-5796,A,Member,Male,Sports and travel,76.92,10,38.46,807.66,UPI,5.6
+389-70-2397,C,Normal,Female,Health and beauty,83.66,5,20.915,439.215,Cash,7.2
+114-35-5271,B,Normal,Female,Electronic accessories,57.91,8,23.164,486.444,Cash,8.1
+607-76-6216,C,Member,Female,Fashion accessories,92.49,5,23.1225,485.5725,Credit card,8.6
+715-20-1673,B,Normal,Male,Electronic accessories,28.38,5,7.095,148.995,Cash,9.4
+811-35-1094,B,Member,Male,Electronic accessories,50.45,6,15.135,317.835,Credit card,8.9
+699-88-1972,B,Normal,Male,Health and beauty,99.16,8,39.664,832.944,Credit card,4.2
+781-84-8059,C,Normal,Male,Fashion accessories,60.74,7,21.259,446.439,UPI,5
+409-49-6995,C,Member,Female,Food and beverages,47.27,6,14.181,297.801,Cash,8.8
+725-54-0677,C,Member,Male,Health and beauty,85.6,7,29.96,629.16,Cash,5.3
+146-09-5432,A,Member,Male,Food and beverages,35.04,9,15.768,331.128,UPI,4.6
+377-79-7592,C,Member,Female,Electronic accessories,44.84,9,20.178,423.738,Credit card,7.5
+509-10-0516,B,Normal,Male,Home and lifestyle,45.97,4,9.194,193.074,UPI,5.1
+595-94-9924,A,Member,Female,Health and beauty,27.73,5,6.9325,145.5825,Credit card,4.2
+865-41-9075,A,Normal,Male,Food and beverages,11.53,7,4.0355,84.7455,Cash,8.1
+545-07-8534,C,Normal,Female,Health and beauty,58.32,2,5.832,122.472,UPI,6
+118-62-1812,C,Member,Female,Home and lifestyle,78.38,4,15.676,329.196,Cash,7.9
+450-42-3339,C,Normal,Male,Health and beauty,84.61,10,42.305,888.405,Credit card,8.8
+851-98-3555,B,Normal,Female,Health and beauty,82.88,5,20.72,435.12,Credit card,6.6
+186-71-5196,A,Member,Female,Food and beverages,79.54,2,7.954,167.034,UPI,6.2
+624-01-8356,B,Normal,Female,Home and lifestyle,49.01,10,24.505,514.605,Credit card,4.2
+313-66-9943,B,Member,Female,Food and beverages,29.15,3,4.3725,91.8225,Credit card,7.3
+151-27-8496,C,Normal,Female,Electronic accessories,56.13,4,11.226,235.746,UPI,8.6
+453-33-6436,A,Normal,Female,Home and lifestyle,93.12,8,37.248,782.208,Cash,6.8
+522-57-8364,A,Member,Male,Fashion accessories,51.34,8,20.536,431.256,UPI,7.6
+459-45-2396,A,Member,Female,Food and beverages,99.6,3,14.94,313.74,Cash,5.8
+717-96-4189,C,Normal,Female,Electronic accessories,35.49,6,10.647,223.587,Cash,4.1
+722-13-2115,C,Member,Male,Sports and travel,42.85,1,2.1425,44.9925,Credit card,9.3
+749-81-8133,A,Normal,Female,Fashion accessories,94.67,4,18.934,397.614,Cash,6.8
+777-67-2495,B,Normal,Male,Home and lifestyle,68.97,3,10.3455,217.2555,UPI,8.7
+636-98-3364,B,Member,Female,Electronic accessories,26.26,3,3.939,82.719,UPI,6.3
+246-55-6923,C,Member,Female,Home and lifestyle,35.79,9,16.1055,338.2155,Credit card,5.1
+181-82-6255,B,Normal,Female,Home and lifestyle,16.37,6,4.911,103.131,Cash,7
+838-02-1821,C,Member,Female,Home and lifestyle,12.73,2,1.273,26.733,Credit card,5.2
+887-42-0517,C,Normal,Female,Sports and travel,83.14,7,29.099,611.079,Credit card,6.6
+457-12-0244,C,Member,Female,Sports and travel,35.22,6,10.566,221.886,UPI,6.5
+226-34-0034,B,Normal,Female,Electronic accessories,13.78,4,2.756,57.876,UPI,9
+321-49-7382,B,Member,Male,Sports and travel,88.31,1,4.4155,92.7255,Credit card,5.2
+397-25-8725,A,Member,Female,Health and beauty,39.62,9,17.829,374.409,Credit card,6.8
+431-66-2305,B,Normal,Female,Electronic accessories,88.25,9,39.7125,833.9625,Credit card,7.6
+825-94-5922,B,Normal,Male,Sports and travel,25.31,2,2.531,53.151,UPI,7.2
+641-62-7288,B,Normal,Male,Home and lifestyle,99.92,6,29.976,629.496,UPI,7.1
+756-93-1854,C,Member,Female,Fashion accessories,83.35,2,8.335,175.035,Credit card,9.5
+243-55-8457,A,Normal,Female,Food and beverages,74.44,10,37.22,781.62,UPI,5.1
+458-10-8612,C,Normal,Male,Health and beauty,64.08,7,22.428,470.988,UPI,7.6
+501-61-1753,B,Normal,Female,Home and lifestyle,63.15,6,18.945,397.845,UPI,9.8
+235-06-8510,C,Member,Male,Home and lifestyle,85.72,3,12.858,270.018,UPI,5.1
+433-08-7822,C,Normal,Female,Health and beauty,78.89,7,27.6115,579.8415,UPI,7.5
+361-85-2571,A,Normal,Female,Sports and travel,89.48,5,22.37,469.77,Cash,7.4
+131-70-8179,A,Member,Female,Health and beauty,92.09,3,13.8135,290.0835,Cash,4.2
+500-02-2261,C,Normal,Female,Food and beverages,57.29,6,17.187,360.927,UPI,5.9
+720-72-2436,A,Normal,Male,Food and beverages,66.52,4,13.304,279.384,UPI,6.9
+702-83-5291,C,Member,Male,Fashion accessories,99.82,9,44.919,943.299,Cash,6.6
+809-69-9497,A,Normal,Female,Home and lifestyle,45.68,10,22.84,479.64,UPI,5.7
+449-16-6770,A,Normal,Male,Health and beauty,50.79,5,12.6975,266.6475,Credit card,5.3
+333-23-2632,A,Member,Male,Health and beauty,10.08,7,3.528,74.088,Cash,4.2
+489-82-1237,A,Normal,Female,Electronic accessories,93.88,7,32.858,690.018,Credit card,7.3
+859-97-6048,C,Member,Male,Electronic accessories,84.25,2,8.425,176.925,Credit card,5.3
+676-10-2200,B,Member,Male,Fashion accessories,53.78,1,2.689,56.469,UPI,4.7
+373-88-1424,C,Member,Male,Home and lifestyle,35.81,5,8.9525,188.0025,UPI,7.9
+365-16-4334,B,Normal,Female,Food and beverages,26.43,8,10.572,222.012,UPI,8.9
+503-21-4385,B,Member,Male,Health and beauty,39.91,3,5.9865,125.7165,UPI,9.3
+305-89-2768,B,Member,Female,Home and lifestyle,21.9,3,3.285,68.985,UPI,4.7
+574-80-1489,B,Member,Female,Food and beverages,62.85,4,12.57,263.97,UPI,8.7
+784-08-0310,C,Member,Female,Food and beverages,21.04,4,4.208,88.368,Cash,7.6
+200-40-6154,B,Member,Male,Home and lifestyle,65.91,6,19.773,415.233,Cash,5.7
+846-10-0341,A,Normal,Female,Fashion accessories,42.57,7,14.8995,312.8895,Cash,6.8
+577-34-7579,C,Member,Male,Food and beverages,50.49,9,22.7205,477.1305,Cash,5.4
+430-02-3888,B,Normal,Male,Electronic accessories,46.02,6,13.806,289.926,Cash,7.1
+867-47-1948,C,Normal,Female,Home and lifestyle,15.8,10,7.9,165.9,Cash,7.8
+384-59-6655,A,Member,Female,Food and beverages,98.66,9,44.397,932.337,Cash,8.4
+256-58-3609,C,Member,Male,Fashion accessories,91.98,1,4.599,96.579,Cash,9.8
+324-92-3863,A,Member,Male,Electronic accessories,20.89,2,2.089,43.869,Cash,9.8
+593-08-5916,A,Normal,Female,Fashion accessories,15.5,1,0.775,16.275,Credit card,7.4
+364-34-2972,C,Member,Male,Electronic accessories,96.82,3,14.523,304.983,Cash,6.7
+794-42-3736,B,Normal,Male,Food and beverages,33.33,2,3.333,69.993,Credit card,6.4
+172-42-8274,B,Normal,Female,Electronic accessories,38.27,2,3.827,80.367,Credit card,5.8
+558-60-5016,A,Normal,Female,Home and lifestyle,33.3,9,14.985,314.685,UPI,7.2
+195-06-0432,A,Member,Male,Home and lifestyle,81.01,3,12.1515,255.1815,Credit card,9.3
+605-03-2706,A,Normal,Female,Health and beauty,15.8,3,2.37,49.77,Cash,9.5
+214-30-2776,B,Member,Female,Electronic accessories,34.49,5,8.6225,181.0725,Credit card,9
+746-04-1077,B,Member,Female,Food and beverages,84.63,10,42.315,888.615,Credit card,9
+448-34-8700,B,Member,Male,Home and lifestyle,36.91,7,12.9185,271.2885,UPI,6.7
+452-04-8808,B,Normal,Male,Electronic accessories,87.08,7,30.478,640.038,Cash,5.5
+531-56-4728,A,Normal,Male,Home and lifestyle,80.08,3,12.012,252.252,Cash,5.4
+744-82-9138,C,Normal,Male,Fashion accessories,86.13,2,8.613,180.873,Cash,8.2
+883-69-1285,B,Member,Male,Fashion accessories,49.92,2,4.992,104.832,Credit card,7
+221-25-5073,A,Normal,Female,Food and beverages,74.66,4,14.932,313.572,Cash,8.5
+518-71-6847,B,Member,Male,Food and beverages,26.6,6,7.98,167.58,UPI,4.9
+156-20-0370,B,Normal,Female,Electronic accessories,25.45,1,1.2725,26.7225,Credit card,5.1
+151-33-7434,B,Normal,Female,Food and beverages,67.77,1,3.3885,71.1585,Credit card,6.5
+728-47-9078,C,Member,Male,Food and beverages,59.59,4,11.918,250.278,Cash,9.8
+809-46-1866,A,Normal,Male,Health and beauty,58.15,4,11.63,244.23,Cash,8.4
+139-32-4183,A,Member,Female,Sports and travel,97.48,9,43.866,921.186,UPI,7.4
+148-41-7930,C,Normal,Male,Health and beauty,99.96,7,34.986,734.706,Cash,6.1
+189-40-5216,C,Normal,Male,Electronic accessories,96.37,7,33.7295,708.3195,Cash,6
+374-38-5555,B,Normal,Female,Fashion accessories,63.71,5,15.9275,334.4775,UPI,8.5
+764-44-8999,B,Normal,Female,Health and beauty,14.76,2,1.476,30.996,UPI,4.3
+552-44-5977,B,Member,Male,Health and beauty,62,8,24.8,520.8,Credit card,6.2
+267-62-7380,C,Member,Male,Electronic accessories,82.34,10,41.17,864.57,UPI,4.3
+430-53-4718,B,Member,Male,Health and beauty,75.37,8,30.148,633.108,Credit card,8.4
+886-18-2897,A,Normal,Female,Food and beverages,56.56,5,14.14,296.94,Credit card,4.5
+602-16-6955,B,Normal,Female,Sports and travel,76.6,10,38.3,804.3,UPI,6
+745-74-0715,A,Normal,Male,Electronic accessories,58.03,2,5.803,121.863,UPI,8.8
+690-01-6631,B,Normal,Male,Fashion accessories,17.49,10,8.745,183.645,UPI,6.6
+652-49-6720,C,Member,Female,Electronic accessories,60.95,1,3.0475,63.9975,UPI,5.9
+233-67-5758,C,Normal,Male,Health and beauty,40.35,1,2.0175,42.3675,UPI,6.2
+303-96-2227,B,Normal,Female,Home and lifestyle,97.38,10,48.69,1022.49,UPI,4.4
+727-02-1313,A,Member,Male,Food and beverages,31.84,1,1.592,33.432,Cash,7.7
+347-56-2442,A,Normal,Male,Home and lifestyle,65.82,1,3.291,69.111,Cash,4.1
+849-09-3807,A,Member,Female,Fashion accessories,88.34,7,30.919,649.299,Cash,6.6
