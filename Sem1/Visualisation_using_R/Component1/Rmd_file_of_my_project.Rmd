@@ -1,0 +1,550 @@
+---
+title: "Worldwide Suicide from 1985 to 2015"
+author: " Gauranga Kumar Baishya"
+date: "25th September 2023"
+output:
+  pdf_document:
+    toc: yes
+    toc_depth: '4'
+  html_document:
+    code_folding: hide
+    css: style1.css
+    highlight: monochrome
+    theme: cosmo
+    toc: yes
+    toc_depth: 4
+    toc_float: no
+---
+# <b>Introduction</b>
+
+Understanding the complex mechanics of suicide trends is not only essential but also a profoundly humane endeavour in a world distinguished by varied cultures, socioeconomic inequities, and disparate healthcare systems. To solve the mystery of the patterns of suicide throughout the world, this in-depth investigation travels over three decades, from 1985 to 2015. This effort looks deeply into the issue with the use of a sizable dataset made up of 27,820 observations and 12 distinctive traits. Our goal is to identify the variables that affect suicide rates and to shed light on the changing trends that have subtly influenced the lives of countless people throughout time. We seek to shed light on this complicated issue by a thorough examination of this large dataset. 
+
+# <b>Dataset Description</b>
+
+The primary dataset for our project is a compilation from various sources, including the *United Nations Development Program*, *World Bank*, *Kaggle*, and the *World Health Organization*. It contains records spanning from 1985 to 2016; however, due to limited data for the year 2016, we have decided to focus on the period from 1985 to 2015. This dataset has 12 variables: country,year, sex, age, suicides_no, population, suicides per 100k pop,countryyear, HDI for year, gdp_for_year, gdp_per_capita and generation.
+This dataset encompasses a comprehensive collection of data, comprising a total of \textbf{27,820 individual observations} and encompassing \textbf{12 distinct features}. These features offer a diverse range of information, providing valuable insights into various aspects of the data.
+
+The key features within this dataset include:
+
+\begin{enumerate}
+    \item \textbf{Country}: This feature identifies the specific country to which each observation belonged to.
+    \item \textbf{Year}: This feature records the respective year associated with the observation.
+    \item \textbf{Sex}: This feature categorizes individuals by their gender: male or female
+    \item \textbf{Age}: Age groups are represented here.
+    \item \textbf{Suicides\_no}: The number of suicides recorded in each observation.
+    \item \textbf{Population}: This feature provides the population count for each observation.
+    \item \textbf{GDP\_per\_capita}: This variable denotes the Gross Domestic Product (GDP) per capita, as an indicator of economic well-being of the country.
+    \item \textbf{HDI\_for\_year}: The Human Development Index (HDI) for the respective year is included.The Human Development Index (HDI) is a summary measure of average achievement in key dimensions of human development: a long and healthy life, being knowledgeable and having a decent standard of living.
+    \item \textbf{gdp\_for\_year}: This represents the GDP of the country for the given year.
+    \item \textbf{gdp\_per\_capita}: Similar to GDP, this variable specifies GDP per capita, i.e. GDP per individual in a country.
+    \item \textbf{Generation}: generation categories included here are:
+
+\begin{itemize}
+    \item \textbf{Baby Boomers:} Those born roughly between the mid-1940s and mid-1960s.
+    \item \textbf{Generation X:} Typically encompassing individuals born from the mid-1960s to the early 1980s.
+    \item \textbf{Millennials (Generation Y):} Often covering those born from the early 1980s to the mid-1990s.
+    \item \textbf{Generation Z:} Typically including individuals born from the mid-1990s to the early 2010s.
+\end{itemize}
+
+    \item \textbf{Continent}: This feature classifies countries into their respective continents.
+\end{enumerate}
+
+In addition to these primary features, an essential derived variable called \textbf{suicides\_per\_100k} is calculated. This variable is obtained by dividing the \textbf{Suicides\_no} by the \textbf{Population} and then multiplying the result by \textbf{100,000}. This calculation standardizes suicide occurrences, allowing for comparisons and trends analysis that account for population differences.
+The first 10 rows and 7 columns of thus modified dataset are shown below:
+
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE)
+```
+```{r}
+library(tidyverse)
+df <- read_csv("master.csv")
+print(df)
+```
+```{r echo = FALSE}
+library(tidyverse)
+library(countrycode)
+library(gridExtra)
+library(forcats)
+library(extrafont)
+library(corrplot)
+library(rworldmap)
+library(msm)
+library(broom)
+library(RColorBrewer)
+
+
+df <- read_csv("master.csv")
+df <- df %>%
+#select(-c("HDI for year","suicides/100k pop")) %>%
+rename(country_year = "country-year",
+       gdp_for_year = "gdp_for_year ($)",
+       gdp_per_capita = "gdp_per_capita ($)"
+       ) %>%
+as.data.frame()
+  
+df <- df%>%
+  filter(year != 2016) %>%
+  select(-country_year)
+
+df$age <- gsub(" years", "", df$age)
+df$sex <- ifelse(df$sex == "male","Male","Female")
+
+# Adding continent to data:
+df$continent <- countrycode(sourcevar = df[, "country"],
+                              origin = "country.name",
+                              destination = "continent")
+
+# Making age ordinal
+df$age <- factor(df$age, 
+                   ordered = T, 
+                   levels = c("5-14",
+                              "15-24", 
+                              "25-34", 
+                              "35-54", 
+                              "55-74", 
+                              "75+"))
+
+
+  theme_func <- function() {
+  theme_minimal() +
+  theme(
+    text = element_text(family = "serif", color = "gray25"),
+    plot.subtitle = element_text(size = 12,hjust = 0.5,color = "gray45"),
+    plot.caption = element_text(color = "gray30"),
+    plot.background = element_rect(fill = "gray95"),
+    plot.margin = unit(c(5, 10, 5, 10), units = "mm"),
+    plot.title = element_text(hjust = 0.5),
+    strip.text = element_text(color = "white")
+  )
+}
+```
+
+# <b>Exploratory Data Analysis</b>
+## <b>Country</b>
+On average, there are approximately \textbf{74} countries included in the dataset for each year. The following graph presents the distribution of countries from \textbf{1995 to 2015}. Prior to 1995, the number of countries was comparatively lower, but it has since maintained a relatively stable level of around \textbf{80} countries per year.
+
+```{r fig.align = "center", echo = FALSE}
+df %>%
+  group_by(year,country) %>%
+  summarise(countries = unique(country))%>%
+  summarise(count = n()) %>%
+  ggplot(aes(x = year,y = count)) +
+  geom_bar(stat = "identity")+
+  geom_text(aes(label=count),vjust = -0.3) +
+  theme_func()+
+      theme( 
+        panel.grid = element_blank()
+) +
+      scale_x_continuous(breaks = seq(1985, 2015, 2)) +
+      labs(
+    x = "year",
+    y = "count",
+    subtitle = "1985-2015",
+    title = "Distribution of number of countries over the years in the database ",
+    caption = "Data source: Kaggle"
+  ) 
+```
+
+## <b>Global Trend of Suicides Per 100K</b>
+We illustrate the estimated total suicides per 100,000 population across all countries over time. As shown, the number of suicides reached its zenith in the year \textbf{1995} with \textbf{243,544} cases. Nevertheless, in recent years, there has been a \textbf{decrease} in estimated suicides.
+
+```{r fig.align = "center" ,echo = FALSE}
+global_average <- (sum(as.numeric(df$suicides_no)) / sum(as.numeric(df$population)))*100000 
+
+
+df %>%
+  group_by(year) %>%
+  summarise(total_pop = sum(population),
+            total_suicides = sum(suicides_no),
+            suicides_per_100k = (total_suicides/total_pop) * 100000)%>%
+
+  ggplot(aes(x = year, y = suicides_per_100k)) +
+  geom_line(size = 1) +
+  geom_point(size = 2) +
+  geom_hline(yintercept = global_average,linetype = 2) +
+  scale_x_continuous(breaks = seq(1985, 2015, 2))  +
+  theme_func() +
+  theme(
+    panel.grid = element_blank()
+  ) + 
+
+      labs(
+    y = "Suicides per 100k",
+    x = "Year",
+    title = "Worldwide Suicides by year",
+    subtitle = "1985-2015",
+    caption = "Data source: kaggle"
+      )
+
+```
+
+
+## <b>Global Trend of Suicides over time, by Sex</b>
+Globally, the suicide rate among men has been consistently \textbf{3.5 times} higher than that among women, a trend that has remained stable since the mid-1990s. Both male and female suicide rates reached their zenith in the year \textbf{1995}.
+
+
+```{r fig.height = 6, fig.align = "center", echo = FALSE}
+
+
+
+sex_plot <- df %>%
+  group_by(sex) %>%
+  summarize(suicide_per_100k = (sum(as.numeric(suicides_no)) / sum(as.numeric(population))) * 100000) %>%
+ggplot(aes(x = sex, y = suicide_per_100k, fill = sex)) + 
+  geom_col() + 
+  labs(title = "Global suicides by Sex",
+       x = "Sex", 
+       y = "Suicides per 100k",
+       color = "Sex") +theme_func() +
+  theme(plot.title = element_text(hjust = 0.5)) 
+
+ sex_time_plot <- df %>%
+  group_by(year, sex) %>%
+  summarize(suicide_per_100k = (sum(as.numeric(suicides_no)) / sum(as.numeric(population))) * 100000) %>%
+  ggplot(aes(x = year, y = suicide_per_100k, col = factor(sex))) + 
+  facet_grid(sex ~ ., scales ="free_y") + 
+  geom_line() + 
+  geom_point() +
+
+  labs(title = "Trends Over Time, by Sex",
+       subtitle = "1985-2015",
+       x = "Year", 
+       y = "Suicides per 100k", 
+       color = "Sex",caption = "Data source: kaggle") +theme_func() 
+
+grid.arrange(sex_plot,sex_time_plot,ncol = 2) 
+```
+
+## <b>Suicides by Continent,Age and Sex</b>
+The \textbf{gender ratio} has \textbf{remained steady} across all continents, age groups, and genders. Furthermore, it has been noted that the suicide rates \textbf{increases} with age, and this trend is consistent for all continents and genders.
+
+```{r fig.height = 8, fig.align = "center", echo = FALSE}
+continent_sex_plot <-  df %>%
+  group_by(continent,sex) %>%
+  summarize(suicide_per_100k = (sum(as.numeric(suicides_no)) / sum(as.numeric(population))) * 100000) %>%
+  arrange(suicide_per_100k) %>%
+
+ ggplot(aes(x = reorder(continent,suicide_per_100k), y = suicide_per_100k, fill = sex)) + 
+  geom_bar(position = "dodge",alpha = 0.6,stat = 'Identity') + 
+       geom_hline(yintercept = global_average,linetype = 2)+
+    scale_y_continuous(limits = c(0, 50,10)) +
+    labs(
+    x = "Continent",
+    y = "Suicides per 100k",
+    col = "Sex",
+    title = "Suicides by Continent and Age",
+    subtitle = "1985-2015"
+      )+  
+theme_func() +
+    theme(plot.title = element_text(hjust = 0.5)) 
+
+age_sex_plot <-  df %>%
+  group_by(age,sex) %>%
+  summarize(suicide_per_100k = (sum(as.numeric(suicides_no)) / sum(as.numeric(population))) * 100000) %>%
+  arrange(suicide_per_100k) %>%
+
+ ggplot(aes(x = reorder(age,suicide_per_100k), y = suicide_per_100k, fill = sex)) + 
+  geom_bar(position = "dodge",alpha = 0.6,stat = 'Identity') + 
+       geom_hline(yintercept = global_average,linetype = 2)+
+    scale_y_continuous(limits = c(0, 50,10)) +
+    labs(
+    x = "Age",
+    y = "Suicides per 100k",
+    col = "Sex",
+    title = "Suicides by Sex and Age",
+    subtitle = "1985-2015",
+    caption = "Data source: kaggle"
+      )+  
+  theme_func()+
+  theme(plot.title = element_text(hjust = 0.5)) 
+
+grid.arrange(continent_sex_plot,age_sex_plot,nrow=2)
+```
+
+In the continent of Oceania, a greater occurrence of suicides is observed among individuals aged \textbf{15--24} and \textbf{25--34}, while in other continents, suicide rates are more prominent in the age groups of \textbf{55--74} and \textbf{75+}.
+
+```{r fig.align = "center", echo = FALSE}
+
+ df %>%
+  group_by(age,continent) %>%
+  summarize(suicide_per_100k = (sum(as.numeric(suicides_no)) / sum(as.numeric(population))) * 100000) %>%
+  arrange(suicide_per_100k) %>%
+
+ ggplot(aes(x = reorder(continent,suicide_per_100k), y = suicide_per_100k, fill = age)) +   geom_hline(yintercept = global_average,linetype = 2)+
+  geom_bar(stat = 'Identity',position = "dodge") + 
+    labs(
+    x = "Continents",
+    y = "Suicides per 100k",
+    fill = "Age",
+    title = "Suicides by Continent and Age",
+    subtitle = "1985-2015",
+    caption = "Data source: kaggle"
+      )+  
+theme_func() +
+  theme(
+    panel.grid = element_blank()
+  )
+
+
+```
+
+## <b>Global Trend of Suicides over time, by Continent and Age</b>
+
+As evidenced by the charts displayed below, the suicide rate is \textbf{declining} in Asia and Europe, whereas it is \textbf{rising} in America and Oceania. Since \textbf{1995}, the suicide rate has maintained a relatively \textbf{steady} pattern in the African continent.
+
+Following the peak year of **1995**, which recorded the highest number of cases, suicide rates have exhibited a consistent decline across all age groups. The only exception is the age group **5-14**, where the rate has remained nearly constant.
+
+
+```{r fig.height = 7, fig.align = "center", echo = FALSE}
+continent_time <- df %>%
+  group_by(year, continent) %>%
+  summarize(suicide_per_100k = (sum(as.numeric(suicides_no)) / sum(as.numeric(population))) * 100000) 
+
+continent_time_plot <- ggplot(continent_time, aes(x = year, y = suicide_per_100k, col = factor(continent))) + 
+  facet_grid(continent ~ ., scales = "free_y") + 
+  geom_line() + 
+  geom_point() + 
+    theme(
+    text = element_text(family = "serif", color = "gray25"),
+    plot.subtitle = element_text(size = 12),
+    plot.caption = element_text(color = "gray30"),
+    plot.background = element_rect(fill = "gray95"),
+    plot.margin = unit(c(5, 10, 5, 10), units = "mm"),
+   legend.position = "none") +
+  labs(title = "Trends Over Time, by Continent", 
+       x = "Year", 
+       y = "Suicides per 100k", 
+       color = "Continent") +
+  scale_x_continuous(breaks = seq(1985, 2015, 5), minor_breaks = F) 
+
+age_time <- df %>%
+  group_by(year, age) %>%
+  summarize(suicide_per_100k = (sum(as.numeric(suicides_no)) / sum(as.numeric(population))) * 100000) %>%
+  ggplot(aes(x = year, y = suicide_per_100k, col = age)) + 
+  facet_grid(age ~ ., scales = "free_y") + 
+  geom_line() + 
+  geom_point() + 
+  theme(
+    text = element_text(family = "serif", color = "gray25"),
+    plot.subtitle = element_text(size = 12),
+    plot.caption = element_text(color = "gray30"),
+    plot.background = element_rect(fill = "gray95"),
+    plot.margin = unit(c(5, 10, 5, 10), units = "mm"),
+    legend.position = "none") +
+  labs(title = "Trends Over Time, by Age", 
+       x = "Year", 
+       y = "Suicides per 100k", 
+       color = "age") +
+    scale_x_continuous(breaks = seq(1985, 2015, 5), minor_breaks = F)
+
+grid.arrange(continent_time_plot,age_time,ncol=2)
+```
+
+## <b>Countries with most suicides across the years</b>
+The highest suicide rate, at approximately \textbf{41 suicides per 100,000} population, is observed in *Lithuania*, with the *Russian Federation and Sri Lanka* following closely. Notably, there is a significant overrepresentation of European nations characterized by **high suicide rates**.
+
+
+```{r fig.height = 8, fig.align = "center", echo = FALSE}
+country <- df %>%
+  group_by(country,continent) %>%
+  summarize(n = n(),suicide_per_100k = (sum(as.numeric(suicides_no)) / sum(as.numeric(population))) * 100000) %>%
+  arrange(desc(suicide_per_100k)) %>%
+  head(40)
+
+ggplot(country, aes(x = suicide_per_100k, y = reorder(country,suicide_per_100k), fill = continent))  + 
+  geom_bar(stat = "identity")+
+  geom_vline(xintercept = global_average, linetype = 2, color = "grey35", size = 1) +
+theme_func()+
+      labs(
+    x = "Working hours per week",
+    y = "Country",
+    fill = "Age",
+    title = "Top 40 Countries by Suicides",
+    caption = "Data source: kaggle"
+      )  
+
+
+```
+
+## <b>Change in the Rate of Suicide Across Continents </b>
+In this analysis, we aim to investigate the variations in suicide rates between the years \textbf{1995} and \textbf{2014}. We have chosen these specific years to ensure a comprehensive representation of countries spanning various continents. Furthermore, we have excluded a few countries with minimal changes in suicide rates between \textbf{1995} and \textbf{2014}.
+
+```{r echo = FALSE }
+t <- df%>%
+  group_by(country,year,continent) %>%
+  filter(year == "2014") %>%
+       summarize(suicide_per_100k = (sum(as.numeric(suicides_no)) / sum(as.numeric(population))) * 100000)
+
+u <- df%>%
+  group_by(country,year,continent) %>%
+  filter(year == "1995")%>%
+  summarize(suicide_per_100k = (sum(as.numeric(suicides_no)) / sum(as.numeric(population))) * 100000)
+
+countries <- t$country
+u <- u %>%
+  filter(country %in% countries )
+
+countries1 <- u$country
+t <- t %>%
+  filter(country %in% countries1 )
+
+
+m <- rbind(u, t)
+
+
+m <- as.data.frame(m)
+m <- m %>%
+  arrange(desc(country))
+
+```
+
+### <b>Europe</b>
+It is evident that there has been a significant \textbf{decrease} in suicide rates in most European countries compared to those in other continents. Among European nations, \textbf{Portugal}, the \textbf{United Kingdom}, and \textbf{Malta} are notable exceptions, as they have experienced an increase in suicide rates.
+
+Notably, \textbf{Estonia} stands out as the country with the most substantial decrease, with a reduction of nearly \textbf{125\%}. Following closely are the \textbf{Russian Federation} and \textbf{Latvia}, with reductions of \textbf{121\%} and \textbf{113\%}, respectively.
+
+
+```{r fig.height = 10, fig.align = "center", echo = FALSE,fig.width=15}
+#library(extrafont)
+#font_import()
+#loadfonts(device = "win")
+
+
+ m %>%filter(continent %in% c("Europe")) %>%
+ filter(!(country %in% c("Netherlands","Japan","Thailand","Kuwait","Iceland","Ireland","Poland","Spain","Romania","Greece"))) %>%
+  ggplot() +
+  geom_path(aes(x =suicide_per_100k,y = reorder(country,suicide_per_100k)),arrow = arrow(length = unit(1.5, "mm"), type = "closed")) +
+
+      geom_text(
+          aes(x = suicide_per_100k,
+              y = country,
+              label = round(suicide_per_100k, 1),
+              hjust = ifelse(year == "2015", 20,0 ),
+              vjust = 1,
+            ),
+          # Change the appearance of the text
+          size = 4,
+          )   +
+  #    scale_x_continuous(breaks = seq(0, 30, 5), minor_breaks = F) +
+    labs(
+    x = "Suicides per 100k",
+    y = "Country",
+    subtitle = "in the year 1995 and 2014",
+    title = "Change in the rate of suicides in European countries"
+  #  caption = "Data source: ILO, 2017"
+  ) +theme_func() +theme(
+    panel.grid = element_blank(),
+    text = element_text(size=20)
+  )
+
+```
+
+### <b>Asia and Africa</b>
+\textbf{Republic of Korea}, \textbf{Japan}, \textbf{Georgia}, and \textbf{Qatar} are the countries witnessing a rise in suicide rates. Among them, the \textbf{Republic of Korea} stands out prominently, exhibiting the \textbf{highest increase} among all countries, with a staggering \textbf{147\%} surge in its suicide rate.
+
+```{r fig.align = "center", echo = FALSE}
+#library(extrafont)
+#font_import()
+#loadfonts(device = "win")
+
+
+ m %>%filter(continent %in% c("Asia","Africa")) %>%
+  filter(!(country %in% c("Uzbekistan","Kuwait"))) %>%
+  ggplot() +
+  geom_path(aes(x =suicide_per_100k,y = reorder(country,suicide_per_100k)),arrow = arrow(length = unit(1.5, "mm"), type = "closed")) +
+
+      geom_text(
+          aes(x = suicide_per_100k,
+              y = country,
+              label = round(suicide_per_100k, 1),
+              hjust = ifelse(year == "2015", 20,0 ),
+              vjust = 1,
+            ),
+          # Change the appearance of the text
+          size = 3,
+          )   +
+      scale_x_continuous(breaks = seq(0, 30, 5), minor_breaks = F) +
+    labs(
+    x = "Suicides per 100k",
+    y = "Country",
+    subtitle = "in the year 1995 and 2014",
+    title = "Change in the rate of suicides in Asian and African countries",
+    caption = "Data source: Kaggle"
+  ) +theme_func() +theme(
+    panel.grid = element_blank()
+  )
+
+```
+
+### <b>Americas</b>
+The Americas stand out as a distinctive case, with over \textbf{two-thirds} of its countries experiencing an \textbf{increase} in suicide rates, a trend that diverges from most other continents. Notably, \textbf{Suriname} exhibits the highest increase at \textbf{82.2\%}, while \textbf{Cuba} demonstrates the \textbf{steepest decrease} with a reduction of \textbf{64.4\%}.
+
+```{r fig.align = "center", echo = FALSE}
+ m %>%filter(continent %in% c("Americas")) %>%
+  filter(!(country %in% c("Belize","Costa Rica","Antigua and Barbuda","Saint Lucia","Ecuador" ))) %>%
+  ggplot() +
+  geom_path(aes(x =suicide_per_100k,y = reorder(country,suicide_per_100k)),arrow = arrow(length = unit(1.5, "mm"), type = "closed")) +
+
+      geom_text(
+          aes(x = suicide_per_100k,
+              y = country,
+              label = round(suicide_per_100k, 1),
+              hjust = ifelse(year == "2015", 20,0 ),
+              vjust = 1.2,
+            ),
+          # Change the appearance of the text
+          size = 3,
+          color = "gray25"
+          )   +
+    labs(
+    x = "Suicides per 100k",
+    y = "Country",
+    subtitle = "in the year 1995 and 2014",
+    title = "Change in the rate of suicides in American countries",
+    caption = "Data source: kaggle"
+  ) +theme_func() +theme(
+    panel.grid = element_blank()
+  )
+```
+
+# <b>Results</b>
+
+\begin{enumerate}
+  \item The highest global suicide count occurred in the year \textbf{1995}, with \textbf{243,544} cases. Subsequently, there has been a \textbf{decrease} in estimated suicides.
+  
+  \item Globally, suicide rates among \textbf{men} have been consistently \textbf{3.5 times higher} than among women. This trend has remained stable since the mid-1990s.
+  
+  \item The continent of \textbf{Oceania} shows a higher incidence of suicides among individuals aged \textbf{15-24} and \textbf{25-34}. In contrast, other continents exhibit higher suicide rates in the \textbf{55-74} and \textbf{75+} age groups.
+  
+  \item The \textbf{gender ratio} has remained steady across all continents, age groups, and genders. Additionally, suicide rates \textbf{increase with age} across all continents and genders.
+  
+  \item Europe has experienced a significant \textbf{decrease} in suicide rates, with \textbf{Estonia} leading the decline at nearly \textbf{125\%}.
+  
+  \item Asian and African countries, including \textbf{Republic of Korea}, \textbf{Japan}, \textbf{Georgia}, and \textbf{Qatar}, have witnessed a \textbf{rise} in suicide rates. The Republic of Korea exhibited the highest increase at \textbf{147\%}.
+  
+  \item In the Americas, over \textbf{two-thirds} of countries have experienced an \textbf{increase} in suicide rates. Notably, \textbf{Suriname} exhibited the highest increase at \textbf{82.2\%}, while \textbf{Cuba} demonstrated the \textbf{steepest decrease} at \textbf{64.4\%}.
+  
+  \item The dataset provides insights into countries with the \textbf{highest suicide rates}, such as \textbf{Lithuania}, the \textbf{Russian Federation}, and \textbf{Sri Lanka}.
+\end{enumerate}
+
+These findings offer valuable insights into global suicide trends, highlighting the need for targeted intervention and prevention strategies, particularly in regions with increasing suicide rates.
+
+
+# <b>Conclusion</b>
+
+In this comprehensive analysis of worldwide suicide trends from 1985 to 2015, we have explored a vast dataset comprising 27,820 observations and 12 distinct features. Through our investigation, we uncovered significant insights into the factors contributing to suicide rates and the evolving patterns over the years.
+
+We observed a peak in global suicides in 1995, with 243,544 cases, but encouragingly, recent years have shown a decline in suicide rates. Distinct gender disparities persist, with male suicide rates consistently higher, and the age group analysis revealed that younger individuals in Oceania are particularly vulnerable, while in other continents, suicide rates are more prevalent among the elderly.
+
+Our examination of continental trends highlighted variations in suicide rates. Europe has seen substantial decreases, with notable exceptions, while Asia and Africa have faced rising rates in certain countries. The Americas, on the other hand, exhibit a unique pattern with increased rates in a majority of nations.
+
+Overall, this analysis provides valuable insights into the complex phenomenon of suicide across different regions, age groups, and genders. These findings can inform public health initiatives and interventions aimed at reducing suicide rates globally, highlighting the importance of continued research and targeted strategies to address this critical issue.
+
+
+
+
+
+
+
+
+
