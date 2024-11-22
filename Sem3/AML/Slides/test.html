@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Advanced Machine Learning - Chennai Mathematical Institute - Autumn 2023</title>
+</head>
+<body>
+    <h1>Advanced Machine Learning</h1>
+    <h2>Chennai Mathematical Institute - Autumn 2023</h2>
+    <h3>Instructor: Pranabendu Misra</h3>
+
+    <h3>References:</h3>
+    <ul>
+        <li>Aston Zhang, Zack C. Lipton, Mu Li, Alex J. Smola: <em>Dive into Deep Learning</em>, 2023<br>
+            Available <a href="#">Here</a>
+        </li>
+        <li>Avrim Blum, John Hopcroft, and Ravi Kannan: <em>Foundations of Data Science</em>, Cambridge University Press 2021<br>
+            Available <a href="#">Here</a>
+        </li>
+        <li>Ian Goodfellow, Yoshua Bengio, and Aaron Courville: <em>Deep Learning</em>, MIT Press 2016<br>
+            Available <a href="#">Here</a>
+        </li>
+        <li>Richard S. Sutton and Andrew G. Barto: <em>Reinforcement Learning: An Introduction</em>, MIT Press (2nd ed) 2018<br>
+            Available <a href="#">Here</a>
+        </li>
+        <li>Aurelien Geron: <em>Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow</em> (2nd ed), O'Reilly 2019</li>
+        <li>Francois Chollet: <em>Deep Learning with Python</em>, Manning Publications 2017</li>
+        <li>Nikhil Buduma: <em>Fundamentals of Deep Learning</em>, O'Reilly 2017</li>
+        <li>Stuart J. Russell and Peter Norvig: <em>Artificial Intelligence: A Modern Approach</em>, Pearson (3rd ed) 2016</li>
+        <li>Daphne Koller and Nir Friedman: <em>Probabilistic Graphical Models—Principles and Techniques</em>, MIT Press 2009</li>
+        <li>Yuan Zhou: <em>IE 498: Online Learning and Decision Making</em> 2019, UIUC.<br>
+            <a href="#">Lecture Notes</a>
+        </li>
+        <li>S. Zhao: <em>Mathematical Foundations of Reinforcement Learning</em>, 2023<br>
+            <a href="#">Online Book</a>
+        </li>
+    </ul>
+
+    <h3>Announcements</h3>
+    <p>Please subscribe to the course on Moodle.</p>
+
+    <h3>Lectures</h3>
+
+    <h4>Lecture 1: Theoretical Foundations of ML (1)</h4>
+    <p>
+        <a href="#">Slides (pdf)</a><br>
+        PAC learning, uniform convergence<br>
+        Representational capacity, overfitting, underfitting, hyperparameters<br>
+        Blum et al., Chapter 5.1, 5.4, 5.4.1<br>
+        Goodfellow et al., Chapter 5.2
+    </p>
+
+    <h4>Lecture 2: Theoretical Foundations of ML (2)</h4>
+    <p>
+        <a href="#">VC-Dimension (pdf)</a>, <a href="#">Loss Functions (pdf)</a><br>
+        VC dimension<br>
+        Blum, Hopcroft, and Kannan, Chapter 5.5 up to 5.5.2<br>
+        Choosing loss functions: MLE, cross-entropy<br>
+        Goodfellow et al., Chapter 5.5, 3.13
+    </p>
+
+    <h4>Lecture 3: Neural Networks and Training (1)</h4>
+    <p>
+        <a href="#">Slides</a>
+    </p>
+
+    <h4>Lecture 4: Neural Networks and Training (2)</h4>
+    <p>
+        <a href="#">Slides</a><br>
+        Neural networks, unstable gradients, initialization strategies, non-saturating activation functions, batch normalization<br>
+        Géron, Chapter 11<br>
+        <a href="#">Chris Olah: Backpropagation</a><br>
+        <a href="#">Boaz Barak: Yet Another Backpropagation Tutorial</a>
+    </p>
+
+    <h4>Lecture 5: Training Neural Networks II</h4>
+    <p>
+        <a href="#">Slides</a>, <a href="#">Transfer Learning</a><br>
+        Ill-conditioning; optimizing backpropagation: momentum, adaptive learning rates; regularization; local minima; model identifiability; saddle points; Transfer Learning<br>
+        Buduma, Chapter 4<br>
+        Géron, Chapter 11
+    </p>
+
+    <h4>Lecture 6: Fully Connected Neural Networks for MNIST</h4>
+    <p>
+        <a href="#">DNN for MNIST (ipynb)</a><br>
+        <a href="#">DNN for CIFAR10 (ipynb)</a>
+    </p>
+
+    <h4>Lecture 7: Convolutional Neural Networks</h4>
+    <p>
+        <a href="#">Slides (pdf)</a><br>
+        Géron, Chapter 14<br>
+        Buduma, Chapter 5<br>
+        Goodfellow et al., Chapter 9.1–9.3, 9.5<br>
+        Dive into Deep Learning, Chapters 7 and 8<br>
+        <a href="#">Convolution Arithmetic</a><br>
+        <strong>Lab:</strong><br>
+        Implement a CNN<br>
+        Implement a custom data loader for training the CNN
+    </p>
+
+    <h4>Lecture 8: Recurrent Neural Networks</h4>
+    <p>
+        <a href="#">Slides (pdf)</a><br>
+        Géron, Chapter 15<br>
+        <a href="#">A Critical Review of Recurrent Neural Networks for Sequence Learning</a> by Zachary C. Lipton, John Berkowitz, Charles Elkan<br>
+        <a href="#">Understanding LSTM Networks</a>
+    </p>
+
+    <h4>Lecture 9: CNN for MNIST, CIFAR-10, and Adversarial Attacks</h4>
+    <p>
+        <a href="#">CNN for MNIST (ipynb)</a><br>
+        <a href="#">CNN for CIFAR10 (ipynb)</a><br>
+        <a href="#">Fast Gradient Sign Method Attack for CNN for CIFAR10 (ipynb)</a><br>
+        Dive into Deep Learning, Chapter 6<br>
+        <a href="#">Deep Learning: ConvNet Evolutions, Architectures, Implementation Details and Advantages</a><br>
+        <a href="#">Fast Gradient Sign Attack</a>
+    </p>
+
+    <h4>Lecture 10: Examples of RNN and LSTM</h4>
+    <p>
+        <a href="#">RNN and LSTM Example (ipynb)</a>
+    </p>
+
+    <h4>Lecture 11: Autoencoders and Variational Autoencoders</h4>
+    <p>
+        <a href="#">Autoencoders (pdf)</a><br>
+        Introduction to autoencoders, Alfredo Canziani<br>
+        Generative Models—Variational Autoencoders, Alfredo Canziani<br>
+        <a href="#">Variational Autoencoders are Beautiful</a>, Steven Flores<br>
+        Goodfellow et al., Chapters 14 and 20.10.3<br>
+        Examples of Autoencoders and Variational Autoencoders<br>
+        <a href="#">Autoencoders, VAE</a>
+    </p>
+
+    <h4>Lecture 12: Generative Adversarial Networks</h4>
+    <p>
+        <a href="#">GAN (pdf)</a>, <a href="#">GAN Example</a><br>
+        Deep Generative Models, Ava Soleimany (<a href="#">pdf</a>)<br>
+        Dive into Deep Learning, Chapter 18 (<a href="#">Link to Chapter</a>)<br>
+        <a href="#">Convolution Arithmetic</a>
+    </p>
+
+    <h4>Lecture 13: Reinforcement Learning</h4>
+    <p>
+        <a href="#">Slides</a><br>
+        Introduction to reinforcement learning, multi-armed bandits<br>
+        Sutton and Barto, Chapters 1, 2.1–2.7<br>
+        Russell and Norvig, Chapter 17.1
+    </p>
+
+    <h4>Lecture 14: Markov Decision Process</h4>
+    <p>
+        <a href="#">Slides</a><br>
+        Markov Decision Processes: Basic definitions and examples, policies and value functions, Bellman equation, optimal policies<br>
+        Sutton and Barto, Chapter 3
+    </p>
+
+    <h4>Lecture 15: Dynamic Programming Methods for RL</h4>
+    <p>
+        <a href="#">Slides</a><br>
+        Markov Decision Processes: Policy evaluation, policy iteration, value iteration<br>
+        Sutton and Barto, Chapter 4
+    </p>
+
+    <h4>Lecture 16: Monte Carlo Methods for RL</h4>
+    <p>
+        <a href="#">Slides</a><br>
+        Markov Decision Processes: Monte Carlo methods<br>
+        Sutton and Barto, Chapter 5
+    </p>
+
+    <h4>Lecture 17: Temporal Difference Learning</h4>
+    <p>
+        <a href="#">Slides</a><br>
+        Markov Decision Processes: Temporal Difference Learning<br>
+        Sutton and Barto, Chapter 6
+    </p>
+
+    <h4>Lecture 18: Deep Reinforcement Learning</h4>
+    <p>
+        <a href="#">Slides</a>, <a href="#">Deep Q Learning Example (html)</a><br>
+        Deep reinforcement learning<br>
+        <a href="#">Reinforcement Learning</a> lecture by Fei-Fei Li, Justin Johnson, and Serena Yeung (<a href="#">Slides</a>, <a href="#">Video</a>)<br>
+        <a href="#">Playing Atari with Deep Reinforcement Learning</a>, Mnih et al.
+    </p>
+
+    <h4>Lecture 19: Bayesian Optimization</h4>
+    <p>
+        <a href="#">Slides</a><br>
+        Bayesian Optimization, Gaussian Process Regression<br>
+        <a href="#">Example of Bayesian Optimization (ipynb)</a> by Sourish Das<br>
+        <a href="#">Tutorial on Gaussian Process Regression</a>, Richard Turner<br>
+        <a href="#">More on Multivariate Gaussians</a><br>
+        <a href="#">A Tutorial on Bayesian Optimization</a>, Peter I. Frazier<br>
+        <a href="#">A Tutorial on Bayesian Optimization</a>, Brochu et al.<br>
+        <a href="#">Gaussian Processes for Regression: A Quick Introduction</a>, M. Ebden<br>
+        <a href="#">Bayesian Optimization with skopt</a>
+    </p>
+</body>
+</html>
