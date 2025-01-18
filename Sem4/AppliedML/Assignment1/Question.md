@@ -51,5 +51,3 @@ Develop a prototype for classifying SMS messages as spam or not spam. Follow the
 4. Fine-tune hyperparameters (e.g., using grid search or random search) for optimal performance.
 5. Test three different models (e.g., Logistic Regression, Random Forest, and SVM) on the test dataset.
 6. Select the best-performing model based on evaluation metrics.
-
-Follow these steps to implement your solution and ensure the prototype meets the requirements.
